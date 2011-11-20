@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{site.title}}</title>
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/css/site.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <section id="content" class="container">
+      {% include header.html %}
+      
+      <div class="row">
+        <div class="span12">
+          {{content}}
+        </div>
+      </div>
+    </section>
+    
+    {% include footer.html %}
+  </body>
+</html>

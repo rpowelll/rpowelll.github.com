@@ -1,0 +1,66 @@
+img {
+  max-width: 100%;
+}
+
+header {
+  margin-top: 20px;
+  line-height: 48px;
+  
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 32px;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header small {
+  font-size: 16px;
+}
+
+header .title {
+  float: left;
+  display: block;
+  width: 300px;
+}
+
+img.logo {
+  margin-top: 14px;
+  height: 20px;
+  float: left;
+}
+
+section.splash p {
+  text-align: center;
+  font-size: 28px;
+  line-height: 48px;
+  font-weight: 200;
+}
+
+body > footer {
+  text-align: center;
+  color: #aaa;
+}
+
+#posts > article.post, #projects > article.project {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  font-weight: 200;
+}
+
+pre > code {
+  background-color: transparent;
+}
+
+#site-header a {
+  color: #404040;
+}
+
+#site-header a:hover {
+  text-decoration: none;
+  color: #9D261D;
+}
