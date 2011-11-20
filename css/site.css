@@ -57,6 +57,11 @@ pre > code {
   background-color: transparent;
 }
 
+#site-header {
+  position: relative;
+  padding-left: 38px;
+}
+
 #site-header a {
   color: #404040;
 }
@@ -64,4 +69,10 @@ pre > code {
 #site-header a:hover {
   text-decoration: none;
   color: #9D261D;
+}
+
+.logo {
+  position: absolute;
+  top:-12px;
+  left:0px;
 }
