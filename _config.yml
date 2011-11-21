@@ -2,4 +2,7 @@ title: Rhys Powell's Waste of Space
 author: Rhys Powell
 
 markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+
 pygments: true
