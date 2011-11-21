@@ -2,6 +2,7 @@
 layout: default
 title: The Joy of Text
 subtitle: Making the most of plain text
+published: false
 ---
 
 # {{ page.title }} #
