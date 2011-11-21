@@ -76,3 +76,12 @@ pre > code {
   top:-12px;
   left:0px;
 }
+
+.post.single a {
+  border-bottom: 1px dashed #F02311;
+}
+
+.post.single a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #F02311;
+}
