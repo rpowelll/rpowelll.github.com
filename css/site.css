@@ -1698,9 +1698,9 @@ pre > code {
   background-color: transparent; }
 
 #site-header {
-  position: relative;
-  padding-left: 38px;
-  width: 542px; }
+  position: relative; }
+  #site-header .title h3 {
+    margin-left: 38px; }
   #site-header a {
     color: #404040; }
     #site-header a:hover {
