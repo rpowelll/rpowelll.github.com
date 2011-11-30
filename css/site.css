@@ -1656,20 +1656,6 @@ body {
 img {
   max-width: 100%; }
 
-header {
-  margin-top: 20px;
-  line-height: 48px;
-  border-bottom: 1px solid #eeeeee;
-  margin-bottom: 32px; }
-  header h1 {
-    margin-bottom: 0; }
-  header small {
-    font-size: 16px; }
-  header .title {
-    float: left;
-    display: block;
-    width: 300px; }
-
 img.logo {
   margin-top: 14px;
   height: 20px;
@@ -1698,7 +1684,19 @@ pre > code {
   background-color: transparent; }
 
 #site-header {
-  position: relative; }
+  position: relative;
+  margin-top: 20px;
+  line-height: 48px;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 32px; }
+  #site-header h1 {
+    margin-bottom: 0; }
+  #site-header small {
+    font-size: 16px; }
+  #site-header .title {
+    float: left;
+    display: block;
+    width: 300px; }
   #site-header .title h3 {
     margin-left: 38px; }
   #site-header a {
@@ -1712,6 +1710,8 @@ pre > code {
   top: -12px;
   left: 0px; }
 
+.post.single header {
+  text-align: center; }
 .post.single a {
   border-bottom: 1px dashed #f02311; }
   .post.single a:hover {
