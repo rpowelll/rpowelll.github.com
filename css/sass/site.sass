@@ -1,0 +1,103 @@
+// Bootstrap $VERSION
+//
+// Copyright 2011 Twitter, Inc
+// Licensed under the Apache License v2.0
+// http://www.apache.org/licenses/LICENSE-2.0
+//
+// Designed and built with all the love in the world @twitter by @mdo and @fat. 
+// Ported to SCSS by @FrogBawt
+// Date: $DATE
+
+// CSS Reset
+@import reset
+
+// Core variables and mixins
+@import variables
+
+// Modify this for custom colors, font-sizes, etc
+@import mixins
+
+// Grid system and page structure
+@import scaffolding
+
+// Styled patterns and elements
+@import type
+//@import forms
+@import tables
+@import patterns
+
+// Fonts from Google Web Fonts
+@import fonts
+
+body
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
+
+img
+  max-width: 100%
+
+header
+  margin-top: 20px
+  line-height: 48px
+  border-bottom: 1px solid #EEE
+  margin-bottom: 32px
+  h1
+    margin-bottom: 0
+  small
+    font-size: 16px
+  .title
+    float: left
+    display: block
+    width: 300px
+
+img.logo
+  margin-top: 14px
+  height: 20px
+  float: left
+  margin-right: 5px
+
+section.splash p
+  text-align: center
+  font-size: 28px
+  line-height: 48px
+  font-weight: 200
+
+body > footer
+  text-align: center
+  color: #aaa
+
+#posts > article.post, #projects > article.project
+  text-align: center
+  margin-top: 20px
+  margin-bottom: 20px
+
+h1, h2
+  font-weight: 200
+
+pre > code
+  background-color: transparent
+
+#site-header
+  position: relative
+  padding-left: 38px
+  width: 542px
+  a
+    color: #404040
+    &:hover
+      text-decoration: none
+      color: #9D261D
+
+.logo
+  position: absolute
+  top: -12px
+  left: 0px
+
+.post.single a
+  border-bottom: 1px dashed #F02311
+  &:hover
+    text-decoration: none
+    border-bottom: 1px solid #F02311
+
+
+::selection, ::-moz-selection
+  color: white
+  background-color: #F02311
