@@ -8,8 +8,9 @@ published: true
 It's been said practice makes perfect, I for one don't believe in perfection,
 but it still stands as a good phrase, all the theory in the world won't help if
 you've never practically applied it. Yet so many university courses tend to be
-heavy on theory, perhaps to the detriment of their students' coding ability. They
-intend to turn their students into Computer Scientists, but that's not my goal.
+heavy on theory, perhaps to the detriment of their students' coding ability.
+They intend to turn their students into Computer Scientists, but I never wanted
+to be a computer scientist.
 
 So I'm taking things into my own hands, I'm commiting to making a working
 project every month, whether that be useful code library, a web app, or any
