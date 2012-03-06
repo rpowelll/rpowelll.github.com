@@ -1688,3 +1688,6 @@ pre > code {
 ::selection, ::-moz-selection {
   color: white;
   background-color: #f02311; }
+
+#glider {
+  opacity: 0.1; }
