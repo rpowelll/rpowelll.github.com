@@ -1677,11 +1677,11 @@ pre > code {
   top: -12px;
   left: 0px; }
 
-.post.single header {
+.post.single header, .content header {
   text-align: center; }
-.post.single a {
+.post.single a, .content a {
   border-bottom: 1px dashed #f02311; }
-  .post.single a:hover {
+  .post.single a:hover, .content a:hover {
     text-decoration: none;
     border-bottom: 1px solid #f02311; }
 
