@@ -25,6 +25,19 @@ goes something like this:
 buildings have, in this case you'll want to connect to a network called
 `ACHERNAR-BG` and follow the instructions above.
 
+## Using Network Locations in OS X
+
+To easily switch between network settings for the UOW and any other networks
+you may use, it's a good idea to set the UOW up as a network location in OS X.
+To do this, open up the Network preferences again and pick *Edit Locations*
+from the *Locations* dropdown. In the sheet that appears, click the plus (+)
+button to add a new location called *UOW*. Close the sheet and make sure the
+*UOW* is selected in the *Locations* dropdown.
+
+With all of that set up, you should be able to set the proxy up as usual. When
+you leave the UOW network simply open the Apple menu, open the *Locations* sub
+menu and click *Automatic* to switch back to regular settings.
+
 ## Using common terminal applications
 
 Unlike most GUI based apps, terminal apps tend to ignore system proxy settings.
