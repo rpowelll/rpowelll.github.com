@@ -8,8 +8,8 @@ GitHub.
 
 ## Getting connected
 
-To get on to the wireless network, just connect to the network labeled *UOW*,
-not *UOW_WIRELESS*, just *UOW*. When you connect you'll be asked for your user
+To get on to the wireless network, just connect to the network labeled `UOW`,
+not `UOW_WIRELESS`, just `UOW`. When you connect you'll be asked for your user
 name and password, these are identical to your SOLS logon. Once you've
 connected, you'll need to configure your proxy settings. On OS X the set up
 goes something like this:
@@ -45,16 +45,16 @@ password.
 To use git over the UOW proxy you need to do a little extra configuration.
 Simply run the following command in the terminal:
 
-	git config --global http.proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
+	$ git config --global http.proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
 
 As before, substitute in your own username and password to get this working. In
 addition to running this command you'll need to use HTTPS rather than SSH to
 clone repositories. For instance:
 	
 	# This is how you'd clone a repo over SSH
-	git clone git@github.com:username/repo.git
+	$ git clone git@github.com:username/repo.git
 	# But that won't work, so instead use this following command
-	git clone https://username@github.com/username/repo.git
+	$ git clone https://username@github.com/username/repo.git
 
 As long as you do that you should be able to clone, pull and push repositories
 without any hassle.
@@ -63,11 +63,11 @@ without any hassle.
 
 To use curl with a proxy, simply pass the proxy URL as an argument using the `-x` argument like so: 
 
-	curl -x http://USERNAME:PASSWORD@proxy.uow.edu.au:8080 http://www.google.com.au/
+	$ curl -x http://USERNAME:PASSWORD@proxy.uow.edu.au:8080 http://www.google.com.au/
 
 ### Rubygems
 
 To use Rubygems through a proxy simpy use the '--http-proxy` argument like so:
 
-	gem install rails --http-proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
+	$ gem install rails --http-proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
 

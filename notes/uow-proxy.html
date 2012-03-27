@@ -10,8 +10,8 @@ GitHub.</p>
 
 <h2 id="gettingconnected">Getting connected</h2>
 
-<p>To get on to the wireless network, just connect to the network labeled <em>UOW</em>,
-not <em>UOW_WIRELESS</em>, just <em>UOW</em>. When you connect you&#8217;ll be asked for your user
+<p>To get on to the wireless network, just connect to the network labeled <code>UOW</code>,
+not <code>UOW_WIRELESS</code>, just <code>UOW</code>. When you connect you&#8217;ll be asked for your user
 name and password, these are identical to your SOLS logon. Once you&#8217;ve
 connected, you&#8217;ll need to configure your proxy settings. On OS X the set up
 goes something like this:</p>
@@ -50,7 +50,7 @@ password.</p>
 <p>To use git over the UOW proxy you need to do a little extra configuration.
 Simply run the following command in the terminal:</p>
 
-<pre><code>git config --global http.proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
+<pre><code>$ git config --global http.proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
 </code></pre>
 
 <p>As before, substitute in your own username and password to get this working. In
@@ -58,9 +58,9 @@ addition to running this command you&#8217;ll need to use HTTPS rather than SSH 
 clone repositories. For instance:</p>
 
 <pre><code># This is how you'd clone a repo over SSH
-git clone git@github.com:username/repo.git
+$ git clone git@github.com:username/repo.git
 # But that won't work, so instead use this following command
-git clone https://username@github.com/username/repo.git
+$ git clone https://username@github.com/username/repo.git
 </code></pre>
 
 <p>As long as you do that you should be able to clone, pull and push repositories
@@ -70,12 +70,12 @@ without any hassle.</p>
 
 <p>To use curl with a proxy, simply pass the proxy URL as an argument using the <code>-x</code> argument like so: </p>
 
-<pre><code>curl -x http://USERNAME:PASSWORD@proxy.uow.edu.au:8080 http://www.google.com.au/
+<pre><code>$ curl -x http://USERNAME:PASSWORD@proxy.uow.edu.au:8080 http://www.google.com.au/
 </code></pre>
 
 <h3 id="rubygems">Rubygems</h3>
 
 <p>To use Rubygems through a proxy simpy use the &#8217;&#8211;http-proxy` argument like so:</p>
 
-<pre><code>gem install rails --http-proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
+<pre><code>$ gem install rails --http-proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
 </code></pre>
