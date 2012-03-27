@@ -1,36 +1,5 @@
-// Bootstrap $VERSION
-//
-// Copyright 2011 Twitter, Inc
-// Licensed under the Apache License v2.0
-// http://www.apache.org/licenses/LICENSE-2.0
-//
-// Designed and built with all the love in the world @twitter by @mdo and @fat. 
-// Ported to SCSS by @FrogBawt
-// Date: $DATE
+@import bootstrap
 
-// CSS Reset
-@import reset
-
-// Core variables and mixins
-@import variables
-
-// Modify this for custom colors, font-sizes, etc
-@import mixins
-
-// Grid system and page structure
-@import scaffolding
-
-// Styled patterns and elements
-@import type
-// @import forms
-@import tables
-@import patterns
-
-// Fonts from Google Web Fonts
-// @import fonts
-
-body
-  +sans-serif-font(normal, 15px, 24px)
 
 img
   max-width: 100%
@@ -82,7 +51,8 @@ pre, code
     width: 300px
   
   .title h3
-    margin-left: 38px
+    margin: 0 0 0 38px
+    line-height: 48px
 
   a
     color: #404040
@@ -113,3 +83,16 @@ pre, code
   margin-top: 20px
   margin-bottom: 50px
   opacity: 0.1
+
+ol
+  padding-left: 0
+  color: gray
+
+.content h1
+  margin-top: 0
+
+footer
+  margin-top: 23px
+  padding-top: 23px
+  border-top: 1px solid #EEE
+  
