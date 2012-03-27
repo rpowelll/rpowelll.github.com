@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+<h1 id="thepracticalguidetoworkingwiththeuowproxyonosx">The Practical Guide to Working With The UOW Proxy on OS X</h1>
+
+<p>Quick note, this guide is a work in progress, if you want to help out feel free
+to file an issue or pull request on my site&#8217;s <a href="https://github.com/rpwll/rpwll.github.com">project page</a> on
+GitHub.</p>
+
+<h2 id="gettingconnected">Getting connected</h2>
+
+<p>To get on to the wireless network, just connect to the network labeled <em>UOW</em>,
+not <em>UOW_WIRELESS</em>, just <em>UOW</em>. When you connect you&#8217;ll be asked for your user
+name and password, these are identical to your SOLS logon. Once you&#8217;ve
+connected, you&#8217;ll need to configure your proxy settings. On OS X the set up
+goes something like this:</p>
+
+<ol>
+<li>Click on the Wi-Fi icon in the menu bar and click <em>Open Network Preferences</em></li>
+<li>Click the <em>Advanced</em> button towards the bottom right of the window</li>
+<li>Pick <em>Proxies</em> from the tabs along the top of the sheet that appears.</li>
+<li>From the list of possible protocols, select <em>Automatic proxy configuration</em>
+ and enter <code>http://www.uow.edu.au/autoproxy.pac</code> as the URL.</li>
+<li>Save those settings and you should be able to get internet access in most apps.</li>
+</ol>
+
+<p><strong>Note:</strong> Currently Building 3 does not have the newer Wi-Fi setup that most
+buildings have, in this case you&#8217;ll want to connect to a network called
+<code>ACHERNAR-BG</code> and follow the instructions above.</p>
+
+<h2 id="usingcommonterminalapplications">Using common terminal applications</h2>
+
+<p>Unlike most GUI based apps, terminal apps tend to ignore system proxy settings.
+There are workarounds, but a lot of programs will need some special
+configurations.</p>
+
+<p>However, for a lot of apps simply setting the <code>http_proxy</code> variable will be
+enough. To do this simply type the following command into the terminal.</p>
+
+<pre><code>$ http_proxy=&quot;USERNAME:PASSWORD@proxy.uow.edu.au:8080&quot;
+$ HTTP_PROXY=$http_proxy
+</code></pre>
+
+<p>Where <code>USERNAME</code> and <code>PASSWORD</code> are replaced with your SOLS username and
+password.</p>
+
+<h3 id="git">Git</h3>
+
+<p>To use git over the UOW proxy you need to do a little extra configuration.
+Simply run the following command in the terminal:</p>
+
+<pre><code>git config --global http.proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
+</code></pre>
+
+<p>As before, substitute in your own username and password to get this working. In
+addition to running this command you&#8217;ll need to use HTTPS rather than SSH to
+clone repositories. For instance:</p>
+
+<pre><code># This is how you'd clone a repo over SSH
+git clone git@github.com:username/repo.git
+# But that won't work, so instead use this following command
+git clone https://username@github.com/username/repo.git
+</code></pre>
+
+<p>As long as you do that you should be able to clone, pull and push repositories
+without any hassle.</p>
+
+<h3 id="curl">Curl</h3>
+
+<p>To use curl with a proxy, simply pass the proxy URL as an argument using the <code>-x</code> argument like so: </p>
+
+<pre><code>curl -x http://USERNAME:PASSWORD@proxy.uow.edu.au:8080 http://www.google.com.au/
+</code></pre>
+
+<h3 id="rubygems">Rubygems</h3>
+
+<p>To use Rubygems through a proxy simpy use the &#8217;&#8211;http-proxy` argument like so:</p>
+
+<pre><code>gem install rails --http-proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
+</code></pre>
