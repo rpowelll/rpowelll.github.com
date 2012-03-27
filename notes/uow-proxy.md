@@ -63,7 +63,8 @@ without any hassle.
 
 To use curl with a proxy, simply pass the proxy URL as an argument using the `-x` argument like so: 
 
-	$ curl -x http://USERNAME:PASSWORD@proxy.uow.edu.au:8080 http://www.google.com.au/
+	$ curl -x http://USERNAME:PASSWORD@proxy.uow.edu.au:8080 \
+		http://www.google.com.au/
 
 ### Rubygems
 
