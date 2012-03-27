@@ -11,7 +11,7 @@
 @import url(bootstrap/reset.css);
 body {
   margin: 0;
-  font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 24px;
   color: #555555;
@@ -161,7 +161,7 @@ a {
 
 p {
   margin-bottom: 12px;
-  font-family: "Museo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: museo-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 24px; }
   p small {
