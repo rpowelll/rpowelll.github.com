@@ -1651,7 +1651,8 @@ pre > code {
   background-color: transparent; }
 
 pre, code {
-  font-family: "Inconsolata", "Menlo", "Bitstream Vera Sans Mono", monospace; }
+  font-family: "Inconsolata", "Menlo", "Bitstream Vera Sans Mono", monospace;
+  font-size: 14px; }
 
 #site-header {
   position: relative;
