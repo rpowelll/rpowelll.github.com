@@ -70,7 +70,8 @@ clone repositories. For instance:
 	$ git clone https://username@github.com/username/repo.git
 
 As long as you do that you should be able to clone, pull and push repositories
-without any hassle.
+without any hassle. Note that this will also cause Git to prompt you for a 
+password to do any pushes.
 
 ### Curl
 
