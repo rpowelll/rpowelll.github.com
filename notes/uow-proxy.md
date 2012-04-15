@@ -86,3 +86,9 @@ To use Rubygems through a proxy simpy use the '--http-proxy` argument like so:
 
 	$ gem install rails --http-proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
 
+### Node.js Package Manager (npm)
+
+To use `npm` through a proxy simply use the `npm config` command to set the proxy like so:
+
+	$ npm config set proxy http://USERNAME:PASSWORD@proxy.uow.edu.au:8080
+
