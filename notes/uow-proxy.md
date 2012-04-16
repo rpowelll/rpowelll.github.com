@@ -21,10 +21,6 @@ goes something like this:
    and enter `http://www.uow.edu.au/autoproxy.pac` as the URL.
 5. Save those settings and you should be able to get internet access in most apps.
 
-**Note:** Currently Building 3 does not have the newer Wi-Fi setup that most
-buildings have, in this case you'll want to connect to a network called
-`ACHERNAR-BG` and follow the instructions above.
-
 ## Using Network Locations in OS X
 
 To easily switch between network settings for the UOW and any other networks
