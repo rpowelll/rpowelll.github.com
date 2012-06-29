@@ -26,11 +26,6 @@ header h1 {
 li, p {
   margin-bottom: 1em; }
 
-footer {
-  margin-top: 50px;
-  color: #aaaaaa;
-  font-size: 12px; }
-
 #app-store-link img {
   display: block;
   margin: auto; }
@@ -44,4 +39,7 @@ footer {
   display: block;
   float: left;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  margin-top: 50px;
+  color: #aaaaaa;
+  font-size: 12px; }
