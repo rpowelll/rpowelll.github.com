@@ -2,6 +2,9 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   color: #333333; }
 
+h2 {
+  font-weight: normal; }
+
 #wrapper {
   width: 800px;
   margin: auto;
@@ -31,3 +34,14 @@ footer {
 #app-store-link img {
   display: block;
   margin: auto; }
+
+#screenshots img {
+  width: 100px;
+  padding: 0;
+  margin: 5px; }
+
+footer {
+  display: block;
+  float: left;
+  width: 100%;
+  text-align: center; }
