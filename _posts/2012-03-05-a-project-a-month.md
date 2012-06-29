@@ -2,7 +2,7 @@
 layout: post
 title: A Project a Month
 subtitle: Becoming a better coder.
-published: true
+published: false
 ---
 
 It's been said practice makes perfect, I for one don't believe in perfection,

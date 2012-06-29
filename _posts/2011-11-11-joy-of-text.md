@@ -2,7 +2,7 @@
 layout: default
 title: The Joy of Text
 subtitle: Making the most of plain text
-published: false
+published: true
 ---
 
 # {{ page.title }} #
@@ -69,8 +69,6 @@ As you can see, even without converting this text to HTML, a Word document or so
 #### Simplenote ####
 
 [Simplenote][simplenote] is an iOS app and website that allows you to store plain text notes in the cloud. It has a some very cool features including the ability to reverse changes to notes. It also integrates effortlessly with NValt allowing me to access notes made on my Mac from my iOS devices and vice versa.
-
-### How I Use These Tools ###
 
 
 
