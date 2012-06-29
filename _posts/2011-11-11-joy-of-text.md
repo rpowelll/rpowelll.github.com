@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: post
 title: The Joy of Text
 subtitle: Making the most of plain text
 published: true
 ---
-
-# {{ page.title }} #
 
 There's something to be said for the simple plain text file, over the past 40 years or so computing has changed immensely, yet the plain text file has stood still. This simple, enduring means of conveying information is one of the most flexible tools in computing.
 
