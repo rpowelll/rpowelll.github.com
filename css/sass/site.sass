@@ -1,6 +1,5 @@
 @import bootstrap
 
-
 img
   max-width: 100%
 
@@ -16,13 +15,36 @@ section.splash p
   line-height: 48px
   font-weight: 300
 
+section.projects
+
+  article.project
+    text-align: center
+    +border-radius(5px)
+
+    &:hover
+      background-color: #EEE
+
+    img
+      margin-top: 20px
+
+    a
+      display: block
+      text-decoration: none
+      border: none
+
+      &:hover
+        border: none
+
+    .description
+      color: #666
+
 section.notice
   text-align: center
   color: #aaa
 
 body > footer
   text-align: center
-  color: #aaa
+  color: #666
 
 #posts > article.post, #projects > article.project
   text-align: center
@@ -79,11 +101,6 @@ pre, code
 ::selection, ::-moz-selection
   color: white
   background-color: #F02311
-
-#glider
-  margin-top: 20px
-  margin-bottom: 50px
-  opacity: 0.1
 
 ol
   padding-left: 0

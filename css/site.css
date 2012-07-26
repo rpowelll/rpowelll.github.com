@@ -1451,13 +1451,31 @@ section.splash p {
   line-height: 48px;
   font-weight: 300; }
 
+section.projects article.project {
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  section.projects article.project:hover {
+    background-color: #eeeeee; }
+  section.projects article.project img {
+    margin-top: 20px; }
+  section.projects article.project a {
+    display: block;
+    text-decoration: none;
+    border: none; }
+    section.projects article.project a:hover {
+      border: none; }
+  section.projects article.project .description {
+    color: #666666; }
+
 section.notice {
   text-align: center;
   color: #aaaaaa; }
 
 body > footer {
   text-align: center;
-  color: #aaaaaa; }
+  color: #666666; }
 
 #posts > article.post, #projects > article.project {
   text-align: center;
@@ -1510,11 +1528,6 @@ pre, code {
 ::selection, ::-moz-selection {
   color: white;
   background-color: #f02311; }
-
-#glider {
-  margin-top: 20px;
-  margin-bottom: 50px;
-  opacity: 0.1; }
 
 ol {
   padding-left: 0;
