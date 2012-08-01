@@ -452,6 +452,9 @@ article.post {
     article.post header .subtitle {
       color: #aaaaaa; }
 
+body > #content > #projects h1 {
+  margin-bottom: 1em;
+  text-align: center; }
 body > #content > #projects .project {
   text-indent: -30000px; }
   body > #content > #projects .project a {
