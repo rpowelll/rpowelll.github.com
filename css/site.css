@@ -308,7 +308,7 @@ body {
   @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .project.parked a {
       background-image: url(/projects/parked/images/project-thumb-2col@2x.png);
-      background-size: 300px 150px; } }
+      background-size: 640px 150px; } }
   @media all and (max-width: 660px) {
     .project.parked a {
       background: url(/projects/parked/images/project-thumb-1col.png); } }
@@ -322,7 +322,7 @@ body {
   @media all and (-webkit-min-device-pixel-ratio: 1.5) {
     .project-thumb.sassy-bootstrap a {
       background-image: url(/images/sassy-bootstrap-thumb-1col@2x.png);
-      background-size: 300px 150px; } }
+      background-size: 640px 150px; } }
 
 .project.sassy-bootstrap a {
   background: url(/images/sassy-bootstrap-thumb-2col.png); }
