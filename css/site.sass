@@ -1,0 +1,146 @@
+@import reset
+@import variables
+@import type
+@import grid
+@import project-thumbs
+
+body > header
+  padding-top: 20px
+  height: 48px
+  border-bottom: 1px $light-grey solid
+
+  a
+    text-decoration: none
+    color: inherit
+    border-bottom: none
+
+  h1
+    font-size: 18px
+    font-weight: bold
+
+  small
+    font-size: 16px
+    font-weight: normal
+
+  svg
+    float: left
+    margin-top: -14px
+
+  nav
+    text-align: right
+    padding-top: 14px
+
+  @media #{$small-media-query}
+    height: auto
+    text-align: center
+
+    div.logo
+      margin-bottom: 0
+
+      svg
+        display: none
+
+      h1
+        margin-top: -10px
+
+    nav
+      text-align: center
+      padding-top: 0
+      margin-top: -20px
+      margin-bottom: 10px !important
+
+    svg
+      margin-top: -26px
+
+body > section#content
+  padding-top: 2em
+
+  @media #{$small-media-query}
+    padding-top: 1em
+
+body > footer
+  border-top: 1px $light-grey solid
+  margin-top: 2em
+  padding-top: 1em
+  padding-bottom: 2em
+  text-align: center
+  color: $light-text-colour
+
+// Home page
+
+body > section#content
+  .intro
+
+    p
+      margin-bottom: 12px
+      margin-top: 0
+      font-size: 28px
+      font-weight: 200
+      line-height: 48px
+      text-align: center
+      @media #{$small-media-query}
+        font-size: 22px
+        line-height: 32px
+
+#recent-activity
+
+  h2
+    // text-align: center
+
+  #posts
+    article.post-stub
+      border-bottom: 1px $light-grey solid
+      padding: 6px 0
+      height: $base-line-height
+      display: block
+
+      &:hover
+        background: $light-grey
+
+      a 
+        border-bottom: none
+
+      p
+        margin: 0
+        float: left
+
+      .date
+        color: $light-text-colour
+        font-size: 12px
+        float: right
+        margin: 0
+        line-height: $base-line-height
+        baseline: center          
+
+      @media #{$small-media-query}
+        padding-top: 1em
+        padding: 9px 0 5px 0
+        height: 30px
+
+  #projects
+    a
+      display: block
+      border-bottom: none
+
+      &:hover
+        opacity: 0.9
+
+      .project 
+        +border-radius(5px)
+        width: 300px
+        height: 150px
+
+article.post
+  margin-bottom: $base-line-height * 2
+
+  header
+    text-align: center
+
+    a
+      border-bottom: none
+
+      &:hover
+        border-bottom: 1px $red solid
+
+    .subtitle
+      color: $light-text-colour
