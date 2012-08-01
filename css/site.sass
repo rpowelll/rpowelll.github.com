@@ -118,17 +118,19 @@ body > section#content
         height: 30px
 
   #projects
-    a
-      display: block
-      border-bottom: none
+    .project-thumb
+      text-indent: -3000px
+      margin-bottom: 20px
 
-      &:hover
-        opacity: 0.9
-
-      .project 
+      a
+        display: block
+        border-bottom: none
         +border-radius(5px)
         width: 300px
         height: 150px
+
+        &:hover
+          opacity: 0.9
 
 article.post
   margin-bottom: $base-line-height * 2
@@ -144,3 +146,17 @@ article.post
 
     .subtitle
       color: $light-text-colour
+
+// Projects page
+
+body > #content > #projects
+  .project 
+    text-indent: -30000px
+
+    a
+      +border-radius(5px)
+
+      border-bottom: none
+      display: block
+      height: 150px
+      margin-bottom: $base-line-height / 2
