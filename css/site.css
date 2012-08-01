@@ -444,13 +444,17 @@ body > section#content .intro p {
 article.post {
   margin-bottom: 48px; }
   article.post header {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 24px; }
     article.post header a {
       border-bottom: none; }
       article.post header a:hover {
         border-bottom: 1px #9d261d solid; }
     article.post header .subtitle {
       color: #aaaaaa; }
+  article.post img {
+    margin-top: 24px;
+    margin-bottom: 24px; }
 
 body > #content > #projects h1 {
   margin-bottom: 1em;
