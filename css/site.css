@@ -427,9 +427,9 @@ body > section#content .intro p {
       padding: 9px 0 5px 0;
       height: 30px; } }
 #recent-activity #projects .project-thumb {
-  text-indent: -3000px;
   margin-bottom: 20px; }
   #recent-activity #projects .project-thumb a {
+    text-indent: -3000px;
     display: block;
     border-bottom: none;
     -webkit-border-radius: 5px;
