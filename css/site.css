@@ -466,3 +466,17 @@ body > #content > #projects .project {
     display: block;
     height: 150px;
     margin-bottom: 12px; }
+
+#content > #parked-promo header {
+  text-align: center;
+  margin-bottom: 24px; }
+#content > #parked-promo #screenshots a {
+  margin: 0;
+  margin-right: 16px;
+  border: none;
+  padding: 0; }
+  @media all and (max-width: 660px) {
+    #content > #parked-promo #screenshots a {
+      display: block;
+      text-align: center;
+      margin-bottom: 24px; } }
