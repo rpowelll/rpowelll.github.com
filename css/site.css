@@ -339,9 +339,28 @@ body {
         background: url(/images/project-thumbs/sassy-bootstrap-1col@2x.); } }
 
 body > header {
+  zoom: 1;
   padding-top: 20px;
   height: 48px;
   border-bottom: 1px #eeeeee solid; }
+  body > header > div, body > header > header, body > header > section, body > header > footer, body > header > nav {
+    width: 300px;
+    margin: 0 0 2em; }
+    body > header > div:first-child, body > header > header:first-child, body > header > section:first-child, body > header > footer:first-child, body > header > nav:first-child {
+      float: left; }
+    body > header > div:last-child, body > header > header:last-child, body > header > section:last-child, body > header > footer:last-child, body > header > nav:last-child {
+      float: right; }
+  body > header:before, body > header:after {
+    content: "";
+    display: table; }
+  body > header:after {
+    clear: both; }
+  @media all and (max-width: 660px) {
+    body > header {
+      margin-bottom: 1em; }
+      body > header > div, body > header > header, body > header > section, body > header > footer, body > header > nav {
+        float: none !important;
+        margin: 0 auto 2em; } }
   body > header a {
     text-decoration: none;
     color: inherit;
@@ -402,44 +421,64 @@ body > section#content .intro p {
       font-size: 22px;
       line-height: 32px; } }
 
-#recent-activity #posts article.post-stub {
-  border-bottom: 1px #eeeeee solid;
-  padding: 6px 0;
-  height: 24px;
-  display: block; }
-  #recent-activity #posts article.post-stub:hover {
-    background: #eeeeee; }
-  #recent-activity #posts article.post-stub a {
-    border-bottom: none; }
-  #recent-activity #posts article.post-stub p {
-    margin: 0;
-    float: left; }
-  #recent-activity #posts article.post-stub .date {
-    color: #aaaaaa;
-    font-size: 12px;
-    float: right;
-    margin: 0;
-    line-height: 24px;
-    baseline: center; }
-  @media all and (max-width: 660px) {
-    #recent-activity #posts article.post-stub {
-      padding-top: 1em;
-      padding: 9px 0 5px 0;
-      height: 30px; } }
-#recent-activity #projects .project-thumb {
-  margin-bottom: 20px; }
-  #recent-activity #projects .project-thumb a {
-    text-indent: -3000px;
-    display: block;
-    border-bottom: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
+#recent-activity {
+  zoom: 1; }
+  #recent-activity > div, #recent-activity > header, #recent-activity > section, #recent-activity > footer, #recent-activity > nav {
     width: 300px;
-    height: 150px; }
-    #recent-activity #projects .project-thumb a:hover {
-      opacity: 0.9; }
+    margin: 0 0 2em; }
+    #recent-activity > div:first-child, #recent-activity > header:first-child, #recent-activity > section:first-child, #recent-activity > footer:first-child, #recent-activity > nav:first-child {
+      float: left; }
+    #recent-activity > div:last-child, #recent-activity > header:last-child, #recent-activity > section:last-child, #recent-activity > footer:last-child, #recent-activity > nav:last-child {
+      float: right; }
+  #recent-activity:before, #recent-activity:after {
+    content: "";
+    display: table; }
+  #recent-activity:after {
+    clear: both; }
+  @media all and (max-width: 660px) {
+    #recent-activity {
+      margin-bottom: 1em; }
+      #recent-activity > div, #recent-activity > header, #recent-activity > section, #recent-activity > footer, #recent-activity > nav {
+        float: none !important;
+        margin: 0 auto 2em; } }
+  #recent-activity #posts article.post-stub {
+    border-bottom: 1px #eeeeee solid;
+    padding: 6px 0;
+    height: 24px;
+    display: block; }
+    #recent-activity #posts article.post-stub:hover {
+      background: #eeeeee; }
+    #recent-activity #posts article.post-stub a {
+      border-bottom: none; }
+    #recent-activity #posts article.post-stub p {
+      margin: 0;
+      float: left; }
+    #recent-activity #posts article.post-stub .date {
+      color: #aaaaaa;
+      font-size: 12px;
+      float: right;
+      margin: 0;
+      line-height: 24px;
+      baseline: center; }
+    @media all and (max-width: 660px) {
+      #recent-activity #posts article.post-stub {
+        padding-top: 1em;
+        padding: 9px 0 5px 0;
+        height: 30px; } }
+  #recent-activity #projects .project-thumb {
+    margin-bottom: 20px; }
+    #recent-activity #projects .project-thumb a {
+      text-indent: -3000px;
+      display: block;
+      border-bottom: none;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+      width: 300px;
+      height: 150px; }
+      #recent-activity #projects .project-thumb a:hover {
+        opacity: 0.9; }
 
 article.post {
   margin-bottom: 48px; }
