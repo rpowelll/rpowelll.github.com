@@ -3,14 +3,14 @@ layout: default
 title: A Waste of Space
 ---
 
-<section id="posts" class="row">
+<section id="posts" >
   {% for post in paginator.posts %}
 		<article class="post ">
 		  <header>
 		    <h1>
-		      {{post.title}} 
+		      <a href="{{ post.url }}">{{ post.title }} </a>
 		      <br/>
-		      <small>{{post.date | date_to_string}}</small>
+		      <small>{{ post.date | date_to_string }}</small>
 		    </h1>
 		  </header>
 		  
