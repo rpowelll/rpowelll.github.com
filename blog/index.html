@@ -13,8 +13,9 @@ title: A Waste of Space
 		      <small>{{ post.date | date_to_string }}</small>
 		    </h1>
 		  </header>
-		  
-		  {{ post.content }}
+		  <section class="content">
+			  {{ post.content }}
+			</section>
 	</article>
 
   {% endfor %}
