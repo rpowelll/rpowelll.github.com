@@ -21,6 +21,15 @@ goes something like this:
    and enter `http://www.uow.edu.au/autoproxy.pac` as the URL.
 5. Save those settings and you should be able to get internet access in most apps.
 
+---
+
+*Note:* There's been some issues with automatic proxy configuration on OS X
+Mountain Lion. If you keep getting crashes in Safari or newer versions of 
+Chrome I suggest you check out [this blog post][crashpost] on the Agilebits
+blog.
+
+[crashpost]: http://blog.agilebits.com/2012/07/27/how-to-fix-safari-6-crashing-on-mountain-lion/
+
 ## Using Network Locations in OS X
 
 To easily switch between network settings for the UOW and any other networks
