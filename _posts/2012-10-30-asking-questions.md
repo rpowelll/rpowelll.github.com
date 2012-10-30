@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Asking Questions
 subtitle: Why stop learning now?
 published: true
