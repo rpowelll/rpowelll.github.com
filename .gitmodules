@@ -1,0 +1,3 @@
+[submodule "projects/parkfinder"]
+	path = projects/parkfinder
+	url = https://github.com/rpwll/uow-park-finder.git
