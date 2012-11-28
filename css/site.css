@@ -231,9 +231,6 @@ code, pre {
   font-family: "inconsolata", monospace;
   font-size: 12px;
   color: #555555;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px; }
 
 code {
@@ -250,9 +247,6 @@ pre {
   background-color: whitesmoke;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   white-space: pre;
   overflow-x: scroll; }
@@ -531,9 +525,6 @@ body > section#content .intro p {
       text-indent: -3000px;
       display: block;
       border-bottom: none;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      -o-border-radius: 5px;
       border-radius: 5px;
       width: 300px;
       height: 150px; }
@@ -560,9 +551,6 @@ body > #content > #projects h1 {
 body > #content > #projects .project {
   text-indent: -30000px; }
   body > #content > #projects .project a {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -o-border-radius: 5px;
     border-radius: 5px;
     border-bottom: none;
     display: block;
