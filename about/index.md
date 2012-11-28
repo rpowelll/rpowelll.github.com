@@ -21,7 +21,8 @@ enjoy using reaches an ideal point between simplicity, utility, and delight and
 I aim for that in my own software.
 
 As far as my technical skills go I've shipped software built with
-Ruby—including various web frameworks such as Rails and Sinatra—as well as
+Ruby—using various web frameworks such as Rails and Sinatra—as well as
 Objective-C and the Cocoa framework. On top of that I enjoy playing with
 functional languages such as Clojure although I've not yet had a chance to use
-those skills in a larger scale project.
+those skills in a larger scale project. Recently I've been a big fan of
+Ember.js, a client-side web app framework written in JavaScript.
