@@ -430,7 +430,9 @@ body > header {
     font-weight: normal; }
   body > header svg {
     float: left;
-    margin-top: -14px; }
+    margin-top: 12px;
+    padding-right: 5px;
+    fill: #555555; }
   body > header nav {
     text-align: right;
     padding-top: 14px; }
@@ -439,16 +441,23 @@ body > header {
       height: auto;
       text-align: center; }
       body > header div.logo svg {
-        display: none; }
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        padding: 15px;
+        fill: white;
+        display: block;
+        float: none;
+        margin: auto;
+        margin-bottom: 24px;
+        background: #9d261d; }
       body > header div.logo h1 {
         margin-top: -10px; }
       body > header nav {
         text-align: center;
         padding-top: 0;
         margin-top: -20px;
-        margin-bottom: 10px !important; }
-      body > header svg {
-        margin-top: -26px; } }
+        margin-bottom: 10px !important; } }
 
 body > section#content {
   padding-top: 2em; }
