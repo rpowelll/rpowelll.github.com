@@ -399,7 +399,7 @@ body > header {
   zoom: 1;
   padding-top: 20px;
   height: 48px;
-  border-bottom: 1px #eeeeee solid; }
+  -moz-border-bottom: 1px #eeeeee solid; }
   body > header > div, body > header > header, body > header > section, body > header > footer, body > header > nav {
     width: 300px;
     margin: 0 0 2em; }
@@ -432,7 +432,8 @@ body > header {
     float: left;
     margin-top: 12px;
     padding-right: 5px;
-    fill: #555555; }
+    fill: #555555;
+    -webkit-background-clip: content-box; }
   body > header nav {
     text-align: right;
     padding-top: 14px; }
@@ -440,17 +441,21 @@ body > header {
     body > header {
       height: auto;
       text-align: center; }
-      body > header div.logo svg {
+      body > header div.logo .logo-path {
         width: 60px;
         height: 60px;
         border-radius: 50%;
         padding: 15px;
-        fill: white;
         display: block;
         float: none;
         margin: auto;
-        margin-bottom: 24px;
-        background: #9d261d; }
+        background: #9d261d;
+        margin-bottom: 24px; }
+        body > header div.logo .logo-path svg {
+          width: 60px;
+          height: 60px;
+          fill: white;
+          margin: 0; }
       body > header div.logo h1 {
         margin-top: -10px; }
       body > header nav {

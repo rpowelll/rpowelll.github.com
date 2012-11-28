@@ -8,7 +8,7 @@ body > header
   +split
   padding-top: 20px
   height: 48px
-  border-bottom: 1px $light-grey solid
+  -moz-border-bottom: 1px $light-grey solid
 
   a
     text-decoration: none
@@ -28,6 +28,7 @@ body > header
     margin-top: 12px
     padding-right: 5px
     fill: $text-colour
+    -webkit-background-clip: content-box
 
   nav
     text-align: right
@@ -38,18 +39,22 @@ body > header
     text-align: center
 
     div.logo
-
-      svg
+      .logo-path
         width: 60px
         height: 60px
         border-radius: 50%
         padding: 15px
-        fill: white
         display: block
         float: none
         margin: auto
-        margin-bottom: $base-line-height
         background: $red
+        margin-bottom: $base-line-height
+
+        svg
+          width: 60px
+          height: 60px
+          fill: white
+          margin: 0
 
       h1
         margin-top: -10px
