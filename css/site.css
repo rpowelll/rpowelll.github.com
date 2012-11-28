@@ -315,7 +315,7 @@ body {
     @media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 660px) {
       .project.parked a {
         background-size: 300px 150px;
-        background: url(/images/project-thumbs/parked-1col@2x.); } }
+        background: url(/images/project-thumbs/parked-1col@2x.png); } }
 
 .project-thumb.sassy-bootstrap a {
   background: url(/images/project-thumbs/sassy-bootstrap-1col.png); }
@@ -336,7 +336,7 @@ body {
     @media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 660px) {
       .project.sassy-bootstrap a {
         background-size: 300px 150px;
-        background: url(/images/project-thumbs/sassy-bootstrap-1col@2x.); } }
+        background: url(/images/project-thumbs/sassy-bootstrap-1col@2x.png); } }
 
 .project-thumb.uow-parking a {
   background: url(/images/project-thumbs/uow-parking-1col.png); }
@@ -357,7 +357,7 @@ body {
     @media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 660px) {
       .project.uow-parking a {
         background-size: 300px 150px;
-        background: url(/images/project-thumbs/uow-parking-1col@2x.); } }
+        background: url(/images/project-thumbs/uow-parking-1col@2x.png); } }
 
 .project-thumb.hackuow a {
   background: url(/images/project-thumbs/hackuow-1col.png); }
@@ -378,7 +378,7 @@ body {
     @media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 660px) {
       .project.hackuow a {
         background-size: 300px 150px;
-        background: url(/images/project-thumbs/hackuow-1col@2x.); } }
+        background: url(/images/project-thumbs/hackuow-1col@2x.png); } }
 
 .project-thumb.infinite-small a {
   background: url(/images/project-thumbs/infinite-small-1col.png); }
@@ -399,7 +399,7 @@ body {
     @media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 660px) {
       .project.infinite-small a {
         background-size: 300px 150px;
-        background: url(/images/project-thumbs/infinite-small-1col@2x.); } }
+        background: url(/images/project-thumbs/infinite-small-1col@2x.png); } }
 
 body > header {
   zoom: 1;
