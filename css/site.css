@@ -338,6 +338,69 @@ body {
         background-size: 300px 150px;
         background: url(/images/project-thumbs/sassy-bootstrap-1col@2x.); } }
 
+.project-thumb.uow-parking a {
+  background: url(/images/project-thumbs/uow-parking-1col.png); }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .project-thumb.uow-parking a {
+      background: url(/images/project-thumbs/uow-parking-1col@2x.png);
+      background-size: 300px 150px; } }
+
+.project.uow-parking a {
+  background: url(/images/project-thumbs/uow-parking-2col.png); }
+  @media all and (max-width: 660px) {
+    .project.uow-parking a {
+      background: url(/images/project-thumbs/uow-parking-1col.png); } }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .project.uow-parking a {
+      background: url(/images/project-thumbs/uow-parking-2col@2x.png);
+      background-size: 640px 150px; } }
+    @media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 660px) {
+      .project.uow-parking a {
+        background-size: 300px 150px;
+        background: url(/images/project-thumbs/uow-parking-1col@2x.); } }
+
+.project-thumb.hackuow a {
+  background: url(/images/project-thumbs/hackuow-1col.png); }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .project-thumb.hackuow a {
+      background: url(/images/project-thumbs/hackuow-1col@2x.png);
+      background-size: 300px 150px; } }
+
+.project.hackuow a {
+  background: url(/images/project-thumbs/hackuow-2col.png); }
+  @media all and (max-width: 660px) {
+    .project.hackuow a {
+      background: url(/images/project-thumbs/hackuow-1col.png); } }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .project.hackuow a {
+      background: url(/images/project-thumbs/hackuow-2col@2x.png);
+      background-size: 640px 150px; } }
+    @media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 660px) {
+      .project.hackuow a {
+        background-size: 300px 150px;
+        background: url(/images/project-thumbs/hackuow-1col@2x.); } }
+
+.project-thumb.infinite-small a {
+  background: url(/images/project-thumbs/infinite-small-1col.png); }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .project-thumb.infinite-small a {
+      background: url(/images/project-thumbs/infinite-small-1col@2x.png);
+      background-size: 300px 150px; } }
+
+.project.infinite-small a {
+  background: url(/images/project-thumbs/infinite-small-2col.png); }
+  @media all and (max-width: 660px) {
+    .project.infinite-small a {
+      background: url(/images/project-thumbs/infinite-small-1col.png); } }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .project.infinite-small a {
+      background: url(/images/project-thumbs/infinite-small-2col@2x.png);
+      background-size: 640px 150px; } }
+    @media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 660px) {
+      .project.infinite-small a {
+        background-size: 300px 150px;
+        background: url(/images/project-thumbs/infinite-small-1col@2x.); } }
+
 body > header {
   zoom: 1;
   padding-top: 20px;
