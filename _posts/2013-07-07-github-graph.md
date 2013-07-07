@@ -18,6 +18,8 @@ I had to learn a lot to get to this point, but the underlying ideas are all fair
 
 But most of all, think of something you want to build and keep expanding your knowledge until you know how to build it. 
 
+<!-- JS Libraries -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="/labs/d3/github-graph/main.js"></script>
 <link href="/labs/d3/github-graph/main.css" rel="stylesheet" type="text/css">
@@ -25,7 +27,7 @@ But most of all, think of something you want to build and keep expanding your kn
 <script type="text/javascript">
 
 var graph = GitHubGraph()
-    .width(640)
+    .width($(".content").width())
     .height(400)
     .repo("AFNetworking/AFNetworking");
 
