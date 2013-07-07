@@ -1,3 +1,6 @@
 [submodule "projects/parkfinder"]
 	path = projects/parkfinder
 	url = https://github.com/rpwll/uow-park-finder.git
+[submodule "labs/d3"]
+	path = labs/d3
+	url = https://github.com/rpowelll/d3-experiments.git
