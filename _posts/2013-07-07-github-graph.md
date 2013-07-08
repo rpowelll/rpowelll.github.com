@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graphing GitHub Networks
+title: Visualising GitHub Networks
 published: true
 ---
 
