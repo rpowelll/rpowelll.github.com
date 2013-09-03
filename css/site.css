@@ -396,6 +396,27 @@ body {
         background-size: 300px 150px;
         background: url(/images/project-thumbs/infinite-small-1col@2x.png); } }
 
+.project-thumb.whispr a {
+  background: url(/images/project-thumbs/whispr-1col.png); }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .project-thumb.whispr a {
+      background: url(/images/project-thumbs/whispr-1col@2x.png);
+      background-size: 300px 150px; } }
+
+.project.whispr a {
+  background: url(/images/project-thumbs/whispr-2col.png); }
+  @media all and (max-width: 660px) {
+    .project.whispr a {
+      background: url(/images/project-thumbs/whispr-1col.png); } }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5) {
+    .project.whispr a {
+      background: url(/images/project-thumbs/whispr-2col@2x.png);
+      background-size: 640px 150px; } }
+    @media all and (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 660px) {
+      .project.whispr a {
+        background-size: 300px 150px;
+        background: url(/images/project-thumbs/whispr-1col@2x.png); } }
+
 body > header {
   zoom: 1;
   padding-top: 20px;
