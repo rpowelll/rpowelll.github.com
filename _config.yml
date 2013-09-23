@@ -1,11 +1,3 @@
-title: Rhys Powell's Waste of Space
-author: Rhys Powell
-
+name: Rhys Powell's Waste of Space
 markdown: redcarpet
-
-safe: true
-lsi: false
 pygments: true
-
-paginate: 5
-pagination_dir: blog

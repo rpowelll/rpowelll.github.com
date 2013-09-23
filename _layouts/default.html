@@ -1,42 +1,50 @@
 <!DOCTYPE html>
-<html lang="en-AU">
-	<head>
-		{% if page.title %}
-		<title>{{page.title}} | Rhys Powell</title>
-		{% else %}
-		<title>Rhys Powell</title>
-		{% endif %}
-		<meta content='text/html; charset=utf-8' http-equiv='content-type' />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
 
-		<meta name="author" content="Rhys Powell" />
-		<meta name="description" content="The personal site of Rhys Powell, computer science student and hobbyist developer" />
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
 
-		<!-- Typekit -->
-		<script type="text/javascript" src="http://use.typekit.com/miv4vzl.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
 
-		<!-- iOS Web Clip Icons -->
-		<link rel="apple-touch-icon" href="/images/webclip/Large.png" />
-		<link rel="apple-touch-icon" sizes="57x57" href="/images/webclip/iPhone.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="/images/webclip/iPad.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="/images/webclip/iPhone@2x.png" />
+        <!-- Typekit -->
+        <script type="text/javascript" src="//use.typekit.net/itv2prw.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    </head>
+    <body>
 
-		<!-- RSS Feeds -->
-		<link rel="alternate" type="application/atom+xml" title ="Rhys Powell's Waste of Space" href="/atom.xml">
+        <div class="container">
+          <div class="site">
+            <div class="header">
+              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <a class="extra" href="/">home</a>
+              <a class="extra" href="/about">about</a>
+            </div>
 
-		<!-- Stylesheets -->
-		<link rel="stylesheet" type="text/css" href="/css/site.css">
-		<link rel="stylesheet" type="text/css" href="/css/syntax.css">
-	</head>
-	<body>
-		{% include header.html %}
+                {{ content }}
 
-		<section id="content">
-			{{ content }}
-		</section>
+            <div class="footer">
+              <div class="contact">
+                <p>
+                  Rhys Powell<br />
+                  Rubyist and iOS Developer<br />
+                  rhys@rpowell.me
+                </p>
+              </div>
+              <div class="contact">
+                <p>
+                  <a href="http://github.com/rpowelll/">github.com/rpowelll</a><br />
+                  <a href="http://twitter.com/rhyspowelll/">twitter.com/rhyspowelll</a><br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- /container -->
 
-		{% include footer.html %}
-	</body>
+    </body>
 </html>
-
