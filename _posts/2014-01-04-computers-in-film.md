@@ -9,7 +9,7 @@ A few users on Tumblr have done a pretty great job of collecting all these repre
 
 ![Screen capture of _The Social Network_](/public/images/computers-in-film/the-social-network.png)
 
-_Image from [Screen shots of computer code](http://moviecode.tumblr.com/post/72188619673/theres-quite-a-bit-of-code-in-the-social-network)_
+_Image from [Source Code in TV and Films](http://moviecode.tumblr.com/post/72188619673/theres-quite-a-bit-of-code-in-the-social-network)_
 
 _The Social Network_ has, in my opinion, one of the best portrayals of hacking in film. Full stop. The scene itself can be found pretty easily [on YouTube](http://www.youtube.com/watch?v=odOzMz-fOOw).
 
