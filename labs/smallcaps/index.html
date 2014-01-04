@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ꜱᴍᴀʟʟ ᴄᴀᴘꜱ</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  
+  <style>
+	  body {
+		  padding-top: 8em;
+	  }
+	  
+	  h1 {
+		  text-align: center;
+		  padding-bottom: 2em;
+	  }
+	  
+		.row {
+			padding-bottom: 2em;
+		}
+		
+		#input, #output {
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>ꜱᴍᴀʟʟ ᴄᴀᴘꜱ</h1>
+		
+		<div class="row">
+			<div class="col-md-6">
+				<h2>ʙᴀꜱᴇ ᴛᴇxᴛ</h2>
+				<textarea class="form-control" id="input"></textarea>
+			</div>
+			<div class="col-md-6">
+				<h2>ᴏᴜᴛᴘᴜᴛ</h2>
+				<textarea class="form-control" id="output"></textarea>
+			</div>
+		</div>
+		
+		<button type="button" class="btn btn-primary btn-lg" id="convert-button">ᴄᴏɴᴠᴇʀᴛ</button>
+	</div>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript">
+	  var makeSmallCaps = (function() {
+			letters = {
+				a: 'ᴀ',
+				b: 'ʙ',
+				c: 'ᴄ',
+				d: 'ᴅ',
+				e: 'ᴇ',
+				f: 'ꜰ',
+				g: 'ɢ',
+				h: 'ʜ',
+				i: 'ɪ'	,
+				j: 'ᴊ',
+				k: 'ᴋ',
+				l: 'ʟ',
+				m: 'ᴍ',
+				n: 'ɴ',
+				o: 'ᴏ',
+				p: 'ᴘ',
+				q: 'Q',
+				r: 'ʀ',
+				s: 'ꜱ',
+				t: 'ᴛ',
+				u: 'ᴜ',
+				v: 'ᴠ',
+				w: 'ᴡ',
+				x: 'x',
+				y: 'ʏ',
+				z: 'ᴢ'
+			};
+			
+		  return function(baseString) {
+			  baseString = baseString.toLowerCase();
+			  var smallCapsString = "";
+			    for (var i = 0; i < baseString.length; i++) {
+				    if (letters[baseString[i]]) {
+					    smallCapsString = smallCapsString + letters[baseString[i]];
+				    } else {
+					    smallCapsString = smallCapsString + baseString[i];
+				    }
+				}
+				
+				return smallCapsString;
+		    }
+	  })();
+	  
+	  $("#convert-button").click(function() {
+		  var baseText = $("#input").val();
+		  var output = makeSmallCaps(baseText);
+		  $("#output").val(output);
+	  });
+  </script>
+</body>
+</html>
