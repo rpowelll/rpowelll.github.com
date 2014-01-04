@@ -7,7 +7,7 @@ layout: post
 
 A few users on Tumblr have done a pretty great job of collecting all these representations, from [on screen portrayal of code](http://moviecode.tumblr.com), to [several different blogs](http://accessmaincomputerfile.net) focusing on [fake computer UIs](http://fakeui.tumblr.com). Honestly I could spend hours picking out examples from these sites, but I'll show some uncharacteristic restraint and focus on a few of my favourites.
 
-![Screen capture of _The Social Network_](http://25.media.tumblr.com/afa881477c33c749f5a86464b62cc385/tumblr_myvdi1KcjS1tognpro1_1280.png)
+![Screen capture of _The Social Network_](/public/images/computers-in-film/the-social-network.png)
 
 _Image from [Screen shots of computer code](http://moviecode.tumblr.com/post/72188619673/theres-quite-a-bit-of-code-in-the-social-network)_
 
@@ -17,7 +17,7 @@ In the scene, <s>Michael Cera's</s> Jesse Eisenberg's character is trying to gra
 
 There's obviously some bullshitting happening, but that can be safely categorised under _artistic license_. It's a real testament to David Fincher that he'd put such detail into a relatively minor scene.
 
-![Various screen captures from _Tron Legacy_](http://jtnimoy.net/178/TRON_GFX_BR_08.JPG)
+![Various screen captures from _Tron Legacy_](/public/images/computers-in-film/tron-legacy.jpg)
 
 _Image from [jtnimoy](http://jtnimoy.net/workviewer.php?q=178)_
 
@@ -27,7 +27,7 @@ At a point fairly early in the film, Big Bad Corporation™ has had its board ro
 
 In fact this screen was captured from the screen of one of the many digital artists who worked on the film. He's got a great writeup of this scene, as well as his other contributions [on his site](http://jtnimoy.net/workviewer.php?q=178), which is well worth a read. As with _The Social Network_ there's some window dressing here, but it's once again pretty accurate, certainly more so than most films.
 
-![The Iron Man MK VII HUD from _Marvel's The Avengers_](http://jayse.tv/v2/wp-content/uploads/2012/05/Iron_Man_Mark_7_diag_back_jayse_hansen.jpg)
+![The Iron Man MK VII HUD from _Marvel's The Avengers_](/public/images/computers-in-film/the-avengers.jpg)
 
 _Image from [Jayse Hansen](http://jayse.tv/v2/?portfolio=hud)_
 
