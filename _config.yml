@@ -1,3 +1,24 @@
-name: Rhys Powell's Waste of Space
-markdown: redcarpet
-pygments: true
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Rhys Powell
+tagline:          'Literaly Useless'
+description:      'University student and machine tender from Wollongong, Australia'
+url:              http://rpowell.me
+
+author:
+  name:           'Rhys Powell'
+  url:            https://rpowell.me
+
+paginate:         5
+
+# Custom vars
+social:
+  github:         rpowelll
+  twitter:        LividOcelot
+  tumblr:         rpowelll

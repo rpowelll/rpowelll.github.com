@@ -1,13 +1,72 @@
 ---
 layout: default
-title: Rhys Powell
+title: Home
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% if paginator.page == 1 %}
+<section id="intro">
+  <h1>About</h1>
+  
+  <p>Hey there, my name is Rhys Powell and I'm a university student from Wollongong, Australia, currently studying Computer Science. Outside of that I build apps for iOS and write lots of silly little programs in Ruby and JavaScript.</p>
+  
+  <p>I like to talk and write about music, animation, and my fascination with ‘internet culture’, whatever that is. </p>
+  
+  <p><a href="/about">More&hellip;</a></p>
+</section>
+
+<section id="elsewhere">
+  <h1>Elsewhere</h1>
+  
+  <p></p>
+  
+  <dl>
+    <dt><a href="http://github.com/{{ site.social.github }}">GitHub</a></dt>
+    <dd>
+      Github is the home of all my personal software projects. I try to release as much of what I make as possible under open source licenses and contribute to a number of OSS projects.
+    </dd>
+    <dt><a href="http://{{ site.social.tumblr }}.tumblr.com">Tumblr</a></dt>
+    <dd>
+      My Tumblr acts as a sort of weird, visual journal of whatever I'm into at the moment. It's unfocused, messy, and mostly pointless. I think there's something beautiful about that.
+    </dd>
+    <dt><a href="http://twitter.com/{{ site.social.twitter }}">Twitter</a></dt>
+    <dd>
+      A cryptic stream of consciousness and probably your best bet at contacting me.
+    </dd>
+  </dl>
+</section>
+{% endif %}
+
+<hr>
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>
