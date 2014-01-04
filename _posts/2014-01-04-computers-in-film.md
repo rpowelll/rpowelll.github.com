@@ -9,7 +9,7 @@ A few users on Tumblr have done a pretty great job of collecting all these repre
 
 ![Screen capture of _The Social Network_](/public/images/computers-in-film/the-social-network.png)
 
-_Image from [Source Code in TV and Films](http://moviecode.tumblr.com/post/72188619673/theres-quite-a-bit-of-code-in-the-social-network)_
+_Image from [Screen shots of computer code](http://moviecode.tumblr.com/post/72188619673/theres-quite-a-bit-of-code-in-the-social-network)_
 
 _The Social Network_ has, in my opinion, one of the best portrayals of hacking in film. Full stop. The scene itself can be found pretty easily [on YouTube](http://www.youtube.com/watch?v=odOzMz-fOOw).
 
@@ -37,4 +37,4 @@ Jayse's UI even switches between a variety of different modes depending on wheth
 
 --- 
 
-You could argue that, in the grand scheme of things, most of this stuff doesn't really matter. That it's only going to be seen by a very small portion of your audience. But for that small part of the audience, myself included, the decision to put real effort and detail into the portrayal of computer and avoid cheap, condescending cliches shows a deep respect for the viewer's intelligence. I think that's pretty great.
+You could argue that, in the grand scheme of things, most of this stuff doesn't really matter. That it's only going to be seen by a very small portion of your audience. But for that small part of the audience, myself included, the decision to put real effort and detail into the portrayal of computers and avoid cheap, condescending cliches shows a deep respect for the viewer's intelligence. I think that's pretty great.
