@@ -2,9 +2,8 @@
 layout: page
 title: About
 ---
-
 <p class="message">
-  Hey there! I'm graduating at the end of 2014 and currently looking for a job. If you're looking for a passionate, talented iOS or web developer I'd really appreciate <a href="mailto:rhys@rpowell.me">hearing from you</a>.
+  I'm graduating from my Computer Science degree at the end of 2014 and currently looking for a full-time employment. If you're looking for a passionate, talented iOS or web developer I'd really appreciate <a href="/contact">hearing from you</a>.
 </p>
 
 Hey there, my name is Rhys Powell and I'm a university student from Wollongong, Australia, currently studying Computer Science. Outside of that I build apps for iOS and write lots of silly little programs in Ruby and JavaScript.
