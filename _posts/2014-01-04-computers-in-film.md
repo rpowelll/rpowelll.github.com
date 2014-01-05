@@ -3,7 +3,7 @@ title: This is UNIX! I know this!
 layout: post
 ---
 
-<p class="lead">It's probably fair to say that most professions are misrepresented in modern film. But being a programmer, not to mention being incredibly narcissistic, I've always been fascinated by the way computers and programming are framed in film. These portrayals vary from the fairly grounded to the fanciful, from the accurate to the 'have these people ever seen a fucking computer before'-inducing.</p>
+It's probably fair to say that most professions are misrepresented in modern film. But being a programmer, not to mention being incredibly narcissistic, I've always been fascinated by the way computers and programming are framed in film. These portrayals vary from the fairly grounded to the fanciful, from the accurate to the 'have these people ever seen a fucking computer before'-inducing.
 
 A few users on Tumblr have done a pretty great job of collecting all these representations, from [on screen portrayal of code](http://moviecode.tumblr.com), to [several different blogs](http://accessmaincomputerfile.net) focusing on [fake computer UIs](http://fakeui.tumblr.com). Honestly I could spend hours picking out examples from these sites, but I'll show some uncharacteristic restraint and focus on a few of my favourites.
 
