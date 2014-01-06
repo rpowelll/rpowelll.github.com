@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Electroplankton
+published: false
 ---
 
 ![The Electroplankton logo](/public/images/electroplankton/banner.jpg)
