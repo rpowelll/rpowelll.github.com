@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Electroplankton
-published: false
 ---
 
 ![The Electroplankton logo](/public/images/electroplankton/banner.jpg)
 
-To this day, it still seems crazy to me that something like Electroplankton exists. It’s not a game, not a music program, not a visual artwork, but a weird mixture of all three. At the time it came out Nintendo had this sort of perfect storm of unexpected casual appeal, unashamedly unique hardware, and most importantly, fantastic sales with a huge install base. And out of these most unanticipated circumstances came Electroplankton. A collaboration between interactive media and installation artist Toshio Iwai and the minds at Nintendo.
+To this day, it still seems crazy to me that something like [Electroplankton](http://en.wikipedia.org/wiki/Electroplankton) exists. It’s not a game, not a music program, not a visual artwork, but a weird mixture of all three. At the time it came out Nintendo had this sort of perfect storm of unexpected casual appeal, unashamedly unique hardware, and most importantly, fantastic sales with a huge install base. And out of these most unanticipated circumstances came Electroplankton. A collaboration between interactive media and installation artist Toshio Iwai and the minds at Nintendo.
 
 Like I said, it’s hard to pin down exactly what Electroplankton is, but I’ll do my best to explain it. The game is a collection of ten different organisms that can be interacted with in various ways to produce sound and visuals. These vary from the Hanenbow—little tadpole-like creatures that can be bounced between leafs to make chimes—to the Volvoice—which records audio from the DS’s microphone and layers effects on it. Each one of the organisms makes unique use of the DS’s plethora of inputs to create something really wonderful.
 
