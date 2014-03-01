@@ -71,4 +71,4 @@ Published packages even get [a page on the Atom website][apm-page] with their RE
 
 ---
 
-To say I'm impressed with Atom would be a gross understatement. The ease with which significant new functionality can be added to the editor puts it leagues ahead of the competition. I've started using Atom as my default text editor for non-iOS projects andI can't wait to see how it grows and devlops in the future.
+To say I'm impressed with Atom would be a gross understatement. The ease with which significant new functionality can be added to the editor puts it leagues ahead of the competition. I've started using Atom as my default text editor for non-iOS projects and I can't wait to see how it grows and develops in the future.
