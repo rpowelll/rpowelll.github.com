@@ -3,14 +3,6 @@ layout: default
 title: Home
 ---
 
-{% if paginator.page == 1 %}
-<section id="intro">
-  <p class="message">
-    I'm graduating from my Computer Science degree at the end of 2014 and currently looking for a full-time employment. If you're looking for a passionate, talented iOS or web developer I'd really appreciate <a href="/contact">hearing from you</a>.
-  </p>
-</section>
-{% endif %}
-
 <section class="posts">
   {% for post in paginator.posts %}
   <article class="post">
