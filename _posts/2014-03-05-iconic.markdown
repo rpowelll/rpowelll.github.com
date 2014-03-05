@@ -6,7 +6,7 @@ link: https://useiconic.com
 
 ![](/public/images/iconic/iconic-tease.png)
 
-Long time readers of this site will know I'm a big fan of SVG. It makes drawing beautiful, resolution independent graphics on the web simple and painless, while also allowing you to manipulate those graphics as part of the DOM. In recent years, tools like Bohemian Coding's [Sketch][] and [D3.js][] have made creating and manipulating SVG images so much simpler.
+Long time readers of this site will know I'm a big fan of SVG. It makes drawing beautiful, resolution independent graphics on the web simple and painless, while also allowing you to manipulate those graphics as part of the DOM. In recent years, I've excitedly watched tools like Bohemian Coding's [Sketch][] and [D3.js][] make creating and manipulating SVG images so much simpler.
 
 [Sketch]: http://www.bohemiancoding.com/sketch/
 [D3.js]: http://d3js.org
