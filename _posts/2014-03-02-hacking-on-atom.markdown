@@ -34,22 +34,7 @@ Now you could just write your view with plain HTML, but Atom offers something co
 
 [SpacePen]: http://atom.github.io/space-pen/
 
-```coffee
-class GistView extends View
-  @content: ->
-    @div class: "gist overlay from-top padded", =>
-      @div class: "inset-panel", =>
-        @div class: "panel-heading", =>
-          @span outlet: "title"
-          @div class: "btn-toolbar pull-right", outlet: 'toolbar', =>
-            @div class: "btn-group", =>
-              @button outlet: "privateButton", class: "btn", "Private"
-              @button outlet: "publicButton", class: "btn", "Public"
-        @div class: "panel-body padded", =>
-          @subview 'descriptionEditor', new EditorView(mini:true, placeholderText: 'Description')
-          @div class: 'pull-right', =>
-            @button outlet: 'gistButton', class: 'btn btn-primary', "Gist It"
-```
+{% gist rpowelll/45e0568ebd3c4eb8cb33 %}
 
 ## Making It All Work
 
