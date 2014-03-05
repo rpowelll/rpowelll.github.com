@@ -1,0 +1,24 @@
+---
+layout: post
+title: Iconic
+link: https://useiconic.com
+---
+
+![](/public/images/iconic/iconic-tease.png)
+
+Long time readers of this site will know I'm a big fan of SVG. It makes drawing beautiful, resolution independent graphics on the web simple and painless, while also allowing you to manipulate those graphics as part of the DOM. In recent years, tools like Bohemian Coding's [Sketch][] and [D3.js][] have made creating and manipulating SVG images so much simpler.
+
+[Sketch]: http://www.bohemiancoding.com/sketch/
+[D3.js]: http://d3js.org
+
+Joining those tools is [Iconic][], an SVG-powered icon system that bills itself as "The first and only icon system created for the modern web". While that hyperbolic description slightly oversells it, there's some great ideas here. Restyling parts your app's icons with CSS is something that's straight up impossible with icon fonts.
+
+[Iconic]: https://useiconic.com
+
+What excites me most however, is this snippet towards the bottom of the _Tour_ page:
+
+> We’re developing a whole set of tools that can be used for any vector icons,
+> not just ours. All tools and code will be open source and publicly available on
+> our [tools page](https://useiconic.com/guides/), and Github.
+
+Sign me up.
