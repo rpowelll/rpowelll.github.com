@@ -10,6 +10,6 @@ link: https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 > not pro- or anti-JavaScript; the language's flaws are discussed frankly, but its
 > ultimate impact on the industry is tremendously positive
 
-This talk might just go down as favourite thing Gary Bernhardt's ever done.
+This talk might just go down as my favourite thing Gary Bernhardt's ever done.
 Equal parts deadpan absurdism and insightful speculation, some of the ideas he
 presents are absolutely fascinating.
