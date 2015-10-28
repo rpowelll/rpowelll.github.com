@@ -1,26 +1,23 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         true
+markdown: kramdown
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Setup
-title:            Rhys Powell
-description:      'University student and iOS / web developer from Wollongong, Australia'
-url:              http://rpowell.me
+title: Subspace
+description: > # this means to ignore newlines until "baseurl:"
+  A blog about games, programming, and whatever else by Rhys Powell
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://rpowell.me
 
 author:
-  name:           'Rhys Powell'
-  url:            https://rpowell.me
+  name: Rhys Powell
+  url: https://rpowell.me
 
-paginate:         5
-
-redcarpet:
-  extensions: [smart]
+paginate: 5
 
 # Custom vars
 social:
   github:         rpowelll
-  twitter:        LividOcelot
-  tumblr:         rpowelll
+  twitter:        powellelogram
