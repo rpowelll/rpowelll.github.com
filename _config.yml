@@ -1,23 +1,20 @@
-# Dependencies
+title: Rhys Powell
+email: rhys@rpowell.me
+description: >
+  Posts on JavaScript, old video games, and whatever else.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://words.extremely.online" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: rhysforyou
+github_username:  rpowelll
+
+# Build settings
 markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-gist
 
-# Permalinks
-permalink: pretty
-
-# Setup
-title: Subspace
-description: > # this means to ignore newlines until "baseurl:"
-  A blog about games, programming, and whatever else by Rhys Powell
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://rpowell.me
-
-author:
-  name: Rhys Powell
-  url: https://rpowell.me
-
-paginate: 5
-
-# Custom vars
-social:
-  github:         rpowelll
-  twitter:        powellelogram
+collections:
+  old_posts:
+    permalink: /:collection/:title
+    output: true
