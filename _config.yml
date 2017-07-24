@@ -28,11 +28,19 @@ defaults:
     values:
       layout: link
       master: true
+      author:
+        name: Rhys Powell
+        email: rhys@rpowell.me
+        uri: https://twitter.com/rhysforyou
   - scope:
       type: posts
     values:
       layout: post
       master: true
+      author:
+        name: Rhys Powell
+        email: rhys@rpowell.me
+        uri: https://twitter.com/rhysforyou
   - scope:
       type: old_posts
     values:

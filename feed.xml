@@ -45,10 +45,10 @@ sitemap: false
       <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
       <id>{{ post.id | absolute_url | xml_escape }}</id>
       <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">
+        {{ post.content | strip | xml_escape }}
         {% if post.link %}
-          <p>Link: <a href="{{ post.link }}">{{ post.link | xml_escape }}</a></p>
+          &lt;p&gt;Link: &lt;a href="{{ post.link }}"&gt;{{ post.link | xml_escape }}&lt;/a&gt;&lt;/p&gt;
         {% endif %}
-        {{ post.content | strip }}
       </content>
 
       {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
