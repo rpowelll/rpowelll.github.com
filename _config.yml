@@ -33,3 +33,8 @@ defaults:
     values:
       layout: post
       master: true
+  - scope:
+      type: old_posts
+    values:
+      layout: post
+      master: false
