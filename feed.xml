@@ -48,7 +48,7 @@ sitemap: false
         {% if post.link %}
           <p>Link: <a href="{{ post.link }}">{{ post.link | xml_escape }}</a></p>
         {% endif %}
-        {{ post.content | strip | xml_escape }}
+        {{ post.content | strip }}
       </content>
 
       {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
