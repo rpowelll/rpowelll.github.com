@@ -3,7 +3,7 @@ email: rhys@rpowell.me
 description: >
   Posts on JavaScript, old video games, and whatever else.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://words.extremely.online" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rpowelll.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rhysforyou
 github_username:  rpowelll
 
