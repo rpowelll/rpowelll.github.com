@@ -1,0 +1,14 @@
+---
+link: http://tatiyants.com/postgres-query-plan-visualization/
+title: Pev - Postgres EXPLAIN Visualiser
+date: 2017-07-24T11:04+1000
+---
+
+> I wanted a tool that can make plans simple to understand and be visually pleasing. More specifically, I wanted:
+>
+> - minimal visual noise
+> - insights
+> - high degree of customization
+> - plan in context of the query
+
+Very cool visualiser for Postgres query plans.

@@ -18,3 +18,18 @@ collections:
   old_posts:
     permalink: /:collection/:title
     output: true
+  links:
+    permalink: /:collection/:title
+    output: true
+
+defaults:
+  - scope:
+      type: links
+    values:
+      layout: link
+      master: true
+  - scope:
+      type: posts
+    values:
+      layout: post
+      master: true
