@@ -6,7 +6,9 @@ tags: browsers firefox web
 ---
 
 > Stylo is the project to take Servo's style system and put it inside Firefox. It uses Rust and does styling in parallel, which makes it both more secure and fast.
+> 
 > As of two weeks ago, we've been shipping it in Firefox Nightly (desktop), disabled by default.
+> 
 > If you want to run more Rust code on your machine, or help this project along, download Nightly and flip the pref layout.css.servo.enabled in about:config. I've personally noticed that stuff is much smoother/faster on many sites, and never perceptibly slower on others.
 
 Firefox has been getting better and better in recent times, and this is another big step for the project. For those not in the loop, [Servo][servo] is the Mozilla foundation's project to build a new browser engine from scratch in [Rust][rust]. Seeing parts of that project start towards shipping to end-users is hugely exciting.
