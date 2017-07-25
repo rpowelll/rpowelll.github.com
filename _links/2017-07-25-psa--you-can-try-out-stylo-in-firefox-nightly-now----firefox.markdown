@@ -1,5 +1,5 @@
 ---
-title: Stylo
+title: Stylo Now Shipping in Firefox Nightly
 link: https://www.reddit.com/r/firefox/comments/6p9t83/psa_you_can_try_out_stylo_in_firefox_nightly_now/
 date: 2017-07-25T19:17:38+1000
 tags: browsers firefox web
