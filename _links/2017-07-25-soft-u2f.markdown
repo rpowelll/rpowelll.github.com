@@ -1,0 +1,15 @@
+---
+title: Soft U2F
+link: https://githubengineering.com/soft-u2f/
+date: 2017-07-25T11:20:49+1000
+---
+
+GitHub Engineering today launched a new project called Soft U2F, effectively a software-based version of hardware authenticators like Yubikey. I tested it out on Yubico's demo site, and it works about how you'd expect, with the added nicety of supporting TouchID on recent MacBook Pros.
+
+If you're curious about the security implications of something like this, the project README has you covered:
+
+> In the case of malware installed on your computer, one meaningful difference between hardware and software key storage for U2F is the duration of the compromise. With hardware key storage, you are only compromised while the malware is running on your computer. With software key storage, you could continue to be compromised, even after the malware has been removed.
+
+For me, that tradeoff seems worth the convenience of not carrying an extra hardware device around with me all the time[^1]. I'm going to try enabling U2F on my GitHub account and see how that goes.
+
+[^1]: There's no USB-C based Yubikey on the market yet anyway, which limits the usefulness to me unless I want to carry a USB type A to C adapter around.
