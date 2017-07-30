@@ -1,9 +1,31 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
+@import "./variables", "minima/base", "minima/layout", "./syntax-highlighting";
 
-@import "minima";
+.site-header, .site-footer {
+  border: none;
+}
 
-html, body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+.site-header {
+  background-color: $brand-color !important;
+}
+
+.site-header .site-title, .site-title, .site-title:visited {
+  color: $background-color;
+}
+
+pre, code {
+  background-color: rgba(0,0,0,0);
+}
+
+pre {
+  border: none;
+}
+
+a:visited {
+  color: $brand-color;
+}
+
+.site-nav .page-link {
+  color: $background-color;
 }

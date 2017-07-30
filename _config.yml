@@ -17,11 +17,15 @@ plugins:
 
 collections:
   old_posts:
-    permalink: /old/:year/:month/:day/:title/
+    permalink: /old/:categories/:year/:month/:day/:title/
     output: true
   links:
-    permalink: /:year/:month/:day/:title/
+    permalink: /:categories/:year/:month/:day/:title/
     output: true
+
+sass:
+  load_paths:
+    - assets/
 
 defaults:
   - scope:
