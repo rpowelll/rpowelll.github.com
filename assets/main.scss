@@ -29,3 +29,8 @@ a:visited {
 .site-nav .page-link {
   color: $background-color;
 }
+
+.site-nav {
+  background: $brand-color;
+  border: none;
+}
