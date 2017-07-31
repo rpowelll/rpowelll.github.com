@@ -15,12 +15,22 @@
 }
 
 pre, code, .highlight {
-  padding: 0;
+  font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
   background-color: rgba(0,0,0,0);
 }
 
 pre {
   border: none;
+  border-left: 0.5rem  solid rgba(255,255,255, 0.2);
+}
+
+code {
+  background-color: rgba(255,255,255, 0.2);
+  border: none;
+}
+
+pre > code {
+  background-color: rgba(0,0,0,0);
 }
 
 a:visited {
