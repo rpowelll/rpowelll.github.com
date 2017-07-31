@@ -16,6 +16,7 @@
       return cache.addAll([
         '/assets/main.css',
         '/public/nav-icons/RSS.svg',
+        '/public/nav-icons/JSON Feed.svg',
         '/public/nav-icons/About.svg',
         '/',
         '/index.html',
