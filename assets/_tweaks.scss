@@ -28,13 +28,13 @@ code,
 
 pre {
   border: none;
-  border-left: 0.5rem solid $grey-color;
+  border-left: 0.5rem solid $grey-color-dark;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
 }
 
 code {
-  background-color: $grey-color;
+  background-color: $grey-color-dark;
   border: none;
 }
 
@@ -61,5 +61,5 @@ a:visited {
 }
 
 blockquote {
-  border-left: 0.5rem solid $grey-color;
+  border-left: 0.5rem solid $grey-color-dark;
 }
