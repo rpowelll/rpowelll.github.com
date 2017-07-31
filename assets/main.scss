@@ -1,62 +1,9 @@
 ---
 ---
 @import "./variables",
+  "minima",
   "minima/base",
   "minima/layout",
   "./syntax-highlighting",
-  "./applescript-additions";
-
-.site-header,
-.site-footer {
-  border: none;
-}
-
-.site-header {
-  background-color: $brand-color !important;
-  position: sticky;
-  top: 0;
-  @include media-query($on-palm) {
-    position: static;
-  }
-}
-
-.site-header .site-title,
-.site-title,
-.site-title:visited {
-  color: $background-color;
-}
-
-pre,
-code,
-.highlight {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
-    monospace;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-pre {
-  border: none;
-  border-left: 0.5rem solid rgba(255, 255, 255, 0.2);
-}
-
-code {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: none;
-}
-
-pre > code {
-  background-color: rgba(0, 0, 0, 0);
-}
-
-a:visited {
-  color: $brand-color;
-}
-
-.site-nav .page-link {
-  color: $background-color;
-}
-
-.site-nav {
-  background: $brand-color;
-  border: none;
-}
+  "./applescript-additions",
+  "./tweaks";
