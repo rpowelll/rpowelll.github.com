@@ -48,6 +48,11 @@ a:visited {
 
 .site-nav .page-link {
   color: $background-color;
+
+  img {
+    position: relative;
+    top: -2px;
+  }
 }
 
 .site-nav {
