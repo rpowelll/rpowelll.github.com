@@ -15,6 +15,9 @@
   background-color: $brand-color !important;
   position: sticky;
   top: 0;
+  @include media-query($on-palm) {
+    position: static;
+  }
 }
 
 .site-header .site-title,
