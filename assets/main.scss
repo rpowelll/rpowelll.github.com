@@ -13,6 +13,8 @@
 
 .site-header {
   background-color: $brand-color !important;
+  position: sticky;
+  top: 0;
 }
 
 .site-header .site-title,
