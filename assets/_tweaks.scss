@@ -29,6 +29,8 @@ code,
 pre {
   border: none;
   border-left: 0.5rem solid $grey-color;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 code {
