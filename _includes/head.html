@@ -34,7 +34,7 @@
     <meta content="{{ site.description }}" property="og:description">
   {% endif %}
   {% if page.url %}
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    <meta content="{{ page.url | absolute_url }}" property="og:url">
   {% endif %}
   {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
@@ -45,7 +45,7 @@
   {% if page.image %}
     <meta content="/img/srcset/{{ page.image }}" property="og:image">
   {% else %}
-    <meta content="/public/launcher-icon-512.png" property="og:image">
+    <meta content="{{ '/public/launcher-icon-512.png' | absolute_url }}" property="og:image">
   {% endif %}
   {% if page.categories %}
     {% for category in page.categories limit:1 %}
