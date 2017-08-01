@@ -1,0 +1,21 @@
+---
+title: React 16 beta
+link: https://github.com/facebook/react/issues/10294
+date: 2017-07-27T09:19:11+1000
+---
+
+React 16 entered beta this morning, bringing with it _Fiber_: a complete rewrite of the React internals that paves the way for exciting new features like async rendering. It also deprecates a variety of APIs that don't make sense to be part of React core, slimming down the project.
+
+You can read the full announcement on [the project's GitHub page](https://github.com/facebook/react/issues/10294):
+
+> React 16 is the first release that ships with a rewrite of the React core (previously codenamed "Fiber"). This rewrite had a few goals:
+> 
+> - Remove old internal abstractions that didn't age well and hindered internal changes.
+> 
+> - Let us ship some of the most requested features like [returning arrays from render](https://github.com/facebook/react/issues/2127), [recovering from component errors](https://github.com/facebook/react/issues/2461), and readable component stack traces for every error.
+>
+> - Enable us to start experimenting with asynchronous rendering of components for better perceived performance.
+>   
+> This initial React 16.0 release is mostly focused on compatibility with existing apps. It does not enable asynchronous rendering yet. We will introduce an opt-in to the async mode later during React 16.x. We don't expect React 16.0 to make your apps significantly faster or slower, but we'd love to know if you see improvements or regressions.
+
+You can try it out now by running `yarn add react@next react-dom@next` on an existing React project. I've upgraded two projects to the beta so far: one worked flawlessly, the other still requires some work, but overall I'm impressed with how smooth this transition has been.

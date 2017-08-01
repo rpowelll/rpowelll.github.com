@@ -10,17 +10,22 @@ github_username:  rpowelll
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: pretty
 plugins:
   - jekyll-feed
   - jekyll-gist
 
 collections:
   old_posts:
-    permalink: /:collection/:title
+    permalink: /old/:categories/:year/:month/:day/:title/
     output: true
   links:
-    permalink: /:collection/:title
+    permalink: /:categories/:year/:month/:day/:title/
     output: true
+
+sass:
+  load_paths:
+    - assets/
 
 defaults:
   - scope:

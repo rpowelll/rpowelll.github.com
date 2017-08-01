@@ -1,5 +1,5 @@
 ---
-title: "Regrettable Adventrues in AppleScript: Publishing from iA Writer"
+title: "Regrettable Adventures in AppleScript: Publishing from iA Writer"
 date: 2017-07-24T21:47+1000
 tags: automation applescript mac
 ---
