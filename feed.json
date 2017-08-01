@@ -19,8 +19,8 @@ title: JSON Feed
     },{% else %}"{{ site.author }}",{% endif %}
     {% endif %}
 "items": [
-    {% assign posts = site.documents | where: 'master', true | where_exp: "post", "post.draft != true" | reverse %}
-    {% for post in posts limit:36 %}
+    {% assign posts = site.documents | where: 'master', true | where_exp: "post", "post.draft != true" | sort: 'date' | reverse %}
+    {% for post in posts limit:25 %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             "title": {{ post.title | jsonify }},
