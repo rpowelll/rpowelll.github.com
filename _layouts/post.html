@@ -14,7 +14,7 @@ layout: default
       {% if page.author %}
         • <img class="author-icon" src="/public/author.svg" /> <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author.name }}</span></span>
       {% endif %}
-      {% if page.tags %}
+      {% if page.tags.size != 0 %}
         • <img class="tag-icon" src="/public/tag.svg" /> <span itemprop="keywords">{{ page.tags | join: ", " }}</span>
       {% endif %}</p>
   </header>
