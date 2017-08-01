@@ -18,6 +18,9 @@
         '/public/nav-icons/RSS.svg',
         '/public/nav-icons/JSON Feed.svg',
         '/public/nav-icons/About.svg',
+        '/public/tag.svg',
+        '/public/date.svg',
+        '/public/author.svg',
         '/',
         '/index.html',
         '/offline/index.html'
