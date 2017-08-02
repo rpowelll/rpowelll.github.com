@@ -2,7 +2,7 @@
 title: "Shoelace.css: a back to the basics CSS starter kit"
 link: https://shoelace.style/
 date: 2017-08-02T10:31:24+1000
-tags: css, web
+tags: css web
 ---
 
 > Shoelace.css is a starter kit, not a framework. Think of it as a CSS reset sprinkled with helpful components. Bootstrap users will find it familiar, yet refreshing.
