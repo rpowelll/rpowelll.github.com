@@ -69,3 +69,19 @@ hr {
   margin: 1rem 0;
   border-color: $grey-color;
 }
+
+.site-title {
+  a:hover {
+    text-decoration: none;
+    border-bottom: none;
+
+    .text {
+      text-decoration: underline;
+    }
+  }
+
+  img {
+    margin-top: -4px;
+    margin-right: 4px;
+  }
+}
