@@ -12,4 +12,4 @@ date: 2017-08-02T10:31:24+1000
 
 Very cool CSS starter kit based on modern CSS features like variables and `calc`. That means older browser support is potentially flaky, but thankfully polyfills exist.
 
-I suspect if you used this on a large project, you'd find yourself wishing for the more sophisticated feature set of something like [Sass](http://sass-lang.com/), but it's nice to see plain ol' vanilla CSS slowly closing the gap. It's nice to envision a future where the bulk of Sass's features are made obsolete by modern CSS, the same way ES6 made many [CoffeeScript](http://coffeescript.org/) features obsolete.
+I suspect if you used this on a large project, you'd find yourself wishing for the more sophisticated feature set of something like [Sass](http://sass-lang.com/), but it's nice to see plain ol' vanilla CSS slowly closing the gap. I can envision a future where the bulk of Sass's features are made obsolete by modern CSS, the same way ES6 made many [CoffeeScript](http://coffeescript.org/) features part of the core language. 
