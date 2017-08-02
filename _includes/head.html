@@ -44,7 +44,7 @@
     <meta content="{{ page.author.name }}" property="article:author">
   {% endif %}
   {% if page.image %}
-    <meta content="/img/srcset/{{ page.image }}" property="og:image">
+    <meta content="{{ page.image | absolute_url }}" property="og:image">
   {% else %}
     <meta content="{{ '/public/launcher-icon-512.png' | absolute_url }}" property="og:image">
   {% endif %}

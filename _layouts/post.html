@@ -20,6 +20,14 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+    {% if page.image %}
+      <img
+        src="{{ page.image | absolute_url }}"
+        {% if page.image-srcset %}
+        srcset="{{ page.image-srcset | join:',' }}"
+        {% endif %}
+       />
+    {% endif %}
     {{ content }}
   </div>
 
