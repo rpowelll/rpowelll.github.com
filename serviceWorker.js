@@ -21,6 +21,7 @@
         '/public/tag.svg',
         '/public/date.svg',
         '/public/author.svg',
+        '/public/logo.svg',
         '/',
         '/index.html',
         '/offline/index.html'
