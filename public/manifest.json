@@ -3,22 +3,31 @@
   "name": "Rhys Powell's Blog",
   "background_color": "#121a2f",
   "theme_color": "rgb(230, 219, 116)",
-  "display": "minimal-ui",
+  "display": "standalone",
   "icons": [
     {
       "src": "/public/launcher-icon-1x.png",
       "type": "image/png",
-      "sizes": "48x48"
+      "sizes": "48x48",
+      "density": 1.0
     },
     {
       "src": "/public/launcher-icon-2x.png",
       "type": "image/png",
-      "sizes": "96x96"
+      "sizes": "96x96",
+      "density": 2.0
+    },
+    {
+      "src": "/public/launcher-icon-3x.png",
+      "type": "image/png",
+      "sizes": "144x144",
+      "density": 3.0
     },
     {
       "src": "/public/launcher-icon-4x.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "density": 4.0
     },
     {
       "src": "/public/launcher-icon-512.png",
@@ -26,5 +35,5 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?launcher=true"
+  "start_url": "index.html"
 }
