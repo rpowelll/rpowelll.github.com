@@ -1,5 +1,5 @@
 ---
-title: Inside Mozilla: Firefox fights back
+title: “Inside Mozilla: Firefox fights back”
 link: https://www.cnet.com/special-reports/mozilla-firefox-fights-back-against-google-chrome/
 date: 2017-08-04T09:00:21 10:00
 tags: browsers web firefox 
