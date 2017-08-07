@@ -1,37 +1,40 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <img class="date-icon" src="/public/date.svg" />
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }}
-      </time>
-      {% if page.author %}
-        • <img class="author-icon" src="/public/author.svg" /> <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author.name }}</span></span>
-      {% endif %}
-      {% if page.tags.size != 0 %}
-        • <img class="tag-icon" src="/public/tag.svg" /> <span itemprop="keywords">{{ page.tags | join: ", " }}</span>
-      {% endif %}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {% if page.image %}
-      <img
-        src="{{ page.image | absolute_url }}"
-        {% if page.image-srcset %}
-        srcset="{{ page.image-srcset | join:',' }}"
+<main id="blog-post" class="page-content" aria-label="Content">
+  <article class="post{% if page.link.size > 0 %} link-post{% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">
+        {%- if page.link.size > 0 -%}
+          <a href="{{post.link}}" itemprop="basedOn">{{ page.title | escape }} &rarr;</a>
+        {%- else -%}
+          {{ page.title | escape }}
+        {%- endif -%}
+      </h1>
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          {{ page.date | date: date_format }}
+        </time>
+        {%- if page.author -%}
+          • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author.name }}</span></span>
         {% endif %}
-       />
-    {% endif %}
-    {{ content }}
-  </div>
-
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
-</article>
+        {%- if page.tags.size != 0 -%}
+          • <span itemprop="keywords">{{ page.tags | join: ", " }}</span>
+        {%- endif -%}</p>
+      </p>
+    </header>
+    <div class="post-content" itemprop="articleBody">
+      {% if page.image %}
+        <img
+          src="{{ page.image | absolute_url }}"
+          {% if page.image-srcset %}
+          srcset="{{ page.image-srcset | join:',' }}"
+          {% endif %}
+         />
+      {% endif %}
+      {{ content }}
+    </div>
+  </article>
+</main>
