@@ -280,10 +280,16 @@ pre > code {
  * Page *
  ********/
 
- main#page {
+ #page {
    max-width: var(--site-max-width);
    margin: auto;
-   padding: 0 1rem;
+   padding: 1rem;
+ }
+
+ #page .page-heading {
+   padding: 0 0 1rem;
+   font-size: 2.5rem;
+   line-height: 1em;
  }
 
 /****************
@@ -291,9 +297,6 @@ pre > code {
  ****************/
 
 #blog-listing {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2rem 1rem;
   max-width: var(--site-max-width);
   margin: auto;
   padding: 1rem;
@@ -301,15 +304,24 @@ pre > code {
 
 #blog-listing .page-heading {
   grid-column: 1 / 5;
-  margin: 0;
+  font-size: 2.5rem;
+  line-height: 1em;
+  margin-bottom: 2rem;
 }
 
 #blog-listing .post-list {
-  display: contents;
+  margin: 0;
+  padding: 0;
 }
 
 #blog-listing .post-list .post {
-  display: contents;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+#blog-listing .post-list .post:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 #blog-listing .post-list .post .post-meta,
@@ -331,14 +343,6 @@ pre > code {
 }
 
 @media (max-width: 32rem) {
-  #blog-listing {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  #blog-listing .page-heading {
-    grid-column: 1 / 4;
-  }
-
   #blog-listing .post-list .post .post-title {
     grid-column: 1 / 3;
   }
@@ -354,7 +358,7 @@ pre > code {
 **************/
 
 #blog-post {
-  padding: 0 1rem;
+  padding: 1rem;
   max-width: var(--site-max-width);
   margin: auto;
 }
