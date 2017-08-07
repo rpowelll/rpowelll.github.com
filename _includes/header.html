@@ -1,35 +1,50 @@
-<header class="site-header" role="banner">
-
+<header id="site-header">
   <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-    <a class="site-title" href="{{ "/" | relative_url }}"><img src="/public/logo.svg" /> <span class="text">{{ site.title | escape }}</span></a>
-
-    {% if page_paths %}
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger">
-          {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">
-              <img src="/public/nav-icons/{{my_page.title | escape}}.svg" />
-              {{ my_page.title | escape }}
-            </a>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </nav>
-    {% endif %}
+    <h1>
+      <a id="site-title" href="/">
+        <svg class="logo" aria-labelledby="logo-title" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title id="logo-title">Site Logo</title>
+          <path d="M15,30 C6.71572875,30 0,23.2842712 0,15 C0,6.71572875 6.71572875,0 15,0 C23.2842712,0 30,6.71572875 30,15 C30,23.2842712 23.2842712,30 15,30 Z M17.491478,7.52562039 L12.5671099,7.52562039 C8.48877855,7.52562039 6.38453313,8.97906826 6.38453313,12.1028965 C6.38453313,14.0769824 7.31734295,15.248418 9.26973561,16.1595346 L5.4517233,22.5590439 L9.46497487,22.5590439 L12.5454166,16.8103321 L13.9337847,16.8103321 L13.9337847,22.5590439 L17.491478,22.5590439 L17.491478,16.8103321 C18.4021444,16.8103321 18.8640488,16.8103321 18.8784969,16.8103321 C24.2774116,16.8103321 25.0393804,14.0769824 25.0393804,12.1028965 C25.0393804,8.97906826 22.935135,7.52562039 18.8568037,7.52562039 L17.4914846,7.52562039 Z M13.9337847,10.0203443 L13.9337847,14.3589947 L12.4369504,14.3589947 C10.8750362,14.3589947 10.0506927,13.6865039 10.0506927,12.1028965 C10.0506927,10.6494486 10.8967295,10.0203443 12.6538829,10.0203443 L13.9337847,10.0203443 Z M17.4901288,10.0203443 L18.7700307,10.0203443 C20.5271841,10.0203443 21.3732209,10.6494486 21.3732209,12.1028965 C21.3732209,13.6865039 20.5488773,14.3589947 18.9869632,14.3589947 L17.4901288,14.3589947 L17.4901288,10.0203443 Z"></path>
+        </svg>
+        Rhys Powell
+      </a>
+    </h1>
+    <nav id="site-nav">
+      <a class="page-link" href="/about/">
+        <svg class="icon icon-about" aria-labelledby="icon-about-title" width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title id="icon-about-title">Info Icon</title>
+          <g fill-rule="evenodd" transform="translate(-2.000000, -2.000000)">
+            <path class="bg-fill" d="M11,17 L13,17 L13,11 L11,11 L11,17 Z M12,2 C6.48,2 2,6.48 2,12 C2,17.52 6.48,22 12,22 C17.52,22 22,17.52 22,12 C22,6.48 17.52,2 12,2 Z M12,20 C7.59,20 4,16.41 4,12 C4,7.59 7.59,4 12,4 C16.41,4 20,7.59 20,12 C20,16.41 16.41,20 12,20 Z M11,9 L13,9 L13,7 L11,7 L11,9 Z" fill-rule="nonzero"></path>
+          </g>
+        </svg>
+        About
+      </a>
+      <a class="page-link" href="/feed.json">
+        <svg class="icon icon-json-feed" aria-labelledby="icon-json-feed-title" width="20px" height="20px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title id="icon-json-feed-title">JSON Feed Icon</title>
+          <g id="JSON-Feed" transform="translate(-22.000000, -38.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(79.549513, 79.549513) rotate(-45.000000) translate(-79.549513, -79.549513) translate(26.049513, 20.549513)">
+              <path d="M7,64.9835977 L7,65.1904297 C15.2519531,65.1904297 17.9179687,68.4912109 17.9179687,78.4570312 L17.9179687,94.1992187 C17.9179687,110.576172 25.9794922,117.8125 44.2607422,117.8125 L49.8466797,117.8125 L49.8466797,105.942383 L46.9902344,105.942383 C36.6435547,105.942383 32.9619141,102.387695 32.9619141,92.4853516 L32.9619141,74.0136719 C32.9619141,64.4921875 28.7089844,59.2871094 20.3935547,58.5253906 L20.3935547,56.7480469 C28.9628906,55.9228516 32.9619141,51.1621094 32.9619141,41.9580078 L32.9619141,25.390625 C32.9619141,15.2978516 36.5166016,11.8066406 46.9902344,11.8066406 L49.8466797,11.8066406 L49.8466797,0 L44.2607422,0 C25.9160156,0 17.9179687,6.98242187 17.9179687,22.9785156 L17.9179687,36.6259766 C17.9179687,46.5917969 15.1884766,49.9560547 7,49.9560547 L7,50.0164023 C3.09098409,50.2736953 -9.23705556e-14,53.5258787 -9.23705556e-14,57.5 C-9.23705556e-14,61.4741213 3.09098409,64.7263047 7,64.9835977 Z" id="Shape"></path>
+              <g transform="translate(42.000000, 50.000000)" id="Oval">
+                <circle cx="7.5" cy="7.5" r="7.5"></circle>
+                <circle cx="32.5" cy="7.5" r="7.5"></circle>
+                <circle cx="57.5" cy="7.5" r="7.5"></circle>
+              </g>
+            </g>
+          </g>
+        </svg>
+        JSON Feed
+      </a>
+      <a class="page-link" href="/feed.xml">
+        <svg class="icon icon-rss" aria-labelledby="icon-rss-title" width="20px" height="20px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <title id="icon-rss-title">RSS</title>
+          <g transform="translate(-4.000000, -4.000000)">
+            <circle fill-rule="nonzero" cx="6.18" cy="17.82" r="2.18"></circle>
+            <path d="M4,4.44 L4,7.27 C11.03,7.27 16.73,12.97 16.73,20 L19.56,20 C19.56,11.41 12.59,4.44 4,4.44 Z M4,10.1 L4,12.93 C7.9,12.93 11.07,16.1 11.07,20 L13.9,20 C13.9,14.53 9.47,10.1 4,10.1 Z" fill-rule="nonzero"></path>
+          </g>
+        </svg>
+        RSS
+      </a>
+    </nav>
   </div>
 </header>
