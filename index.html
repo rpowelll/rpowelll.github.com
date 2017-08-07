@@ -2,25 +2,20 @@
 layout: default
 ---
 
-<div class="home">
-
+<main id="blog-listing" class="page-content">
   <h1 class="page-heading">Posts</h1>
-
   <ul class="post-list">
-    {% assign documents = site.documents | where: 'master', true | sort: 'date' | reverse %}
-
-    {% for post in documents %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
+    {%- for post in site.posts -%}
+    <li class="post link-post" itemscope itemtype="https://schema.org/BlogPosting">
+      <h2 class="post-title" itemprop="name">
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h2>
+      <span class="post-meta">
+        <time itemProp="dateCreated" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S%z' }}">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </time>
+      </span>
+    </li>
+    {%- endfor -%}
   </ul>
-
-  <p class="rss-subscribe"><a href="{{ "/feed.xml" | relative_url }}">subscribe via RSS</a></p>
-
-</div>
+</main>
