@@ -27,15 +27,6 @@ sass:
 
 defaults:
   - scope:
-      type: links
-    values:
-      layout: link
-      master: true
-      author:
-        name: Rhys Powell
-        email: rhys@rpowell.me
-        uri: https://twitter.com/rhysforyou
-  - scope:
       type: posts
     values:
       layout: post
