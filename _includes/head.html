@@ -9,10 +9,11 @@
   <title>Rhys Powell</title>
 
   <!-- Load it fast -->
+  <link rel="preload" as="style" href="/public/normalize.css">
   <link rel="preload" as="style" href="/public/main.css">
 
   <!-- Stylesheets that probably don't work in anything other than Firefox Aurora builds -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="/public/normalize.css">
   <link rel="stylesheet" href="/public/main.css">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
@@ -24,7 +25,8 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <link rel="shortcut icon" href="/public/favicon.ico">
-  <meta name="theme-color" content="rgb(230, 219, 116)" />
+  <link rel="manifest" href="/public/manifest.json">
+  <meta name="theme-color" content="rgb(230, 219, 116)">
   <link rel="apple-touch-icon" href="/public/touch-icon-iphone.png">
   <link rel="apple-touch-icon" sizes="152x152" href="/public/touch-icon-ipad.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/public/touch-icon-iphone-retina.png">

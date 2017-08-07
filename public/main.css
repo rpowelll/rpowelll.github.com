@@ -321,7 +321,7 @@ pre > code {
 }
 
 #blog-listing .post-list .post:not(:last-child) {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 #blog-listing .post-list .post .post-meta,

@@ -14,14 +14,8 @@
   function updateStaticCache() {
     return caches.open(version + staticCacheName).then(function(cache) {
       return cache.addAll([
-        '/assets/main.css',
-        '/public/nav-icons/RSS.svg',
-        '/public/nav-icons/JSON Feed.svg',
-        '/public/nav-icons/About.svg',
-        '/public/tag.svg',
-        '/public/date.svg',
-        '/public/author.svg',
-        '/public/logo.svg',
+        '/public/normalize.css',
+        '/public/main.css',
         '/',
         '/index.html',
         '/offline/index.html'
