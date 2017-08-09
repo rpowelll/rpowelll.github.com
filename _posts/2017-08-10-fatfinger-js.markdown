@@ -1,5 +1,5 @@
 ---
-title: "GitHub - rottytooth/FatFingerJS: Embrace the chaos of JavaScript"
+title: "FatFingerJS: Embrace the chaos of JavaScript"
 link: https://github.com/rottytooth/FatFingerJS
 date: 2017-08-10T07:20:59 10:00
 tags:
