@@ -13,4 +13,4 @@ tags:
 > 
 > If you have Hypercard stacks in .sit, .bin.hqx, and other formats, visit this contribution site to have your stack added quickly and easily to the Archive: [http://hypercardonline.tk](http://hypercardonline.tk)  
 
-I'm continually impressed with The Internet Archive's dedication to preserving computing history. If you like what they're doing, don't forget they could always use more [donations]!
+I'm continually impressed with The Internet Archive's dedication to preserving computing history. If you like what they're doing, don't forget they could always use more [donations](https://archive.org/donate/)!
