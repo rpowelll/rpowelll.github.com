@@ -1,6 +1,6 @@
 title: Rhys Powell
 email: rhys@rpowell.me
-description: Posts on JavaScript, Swift, computing history, and whatever else interest me.
+description: Posts on JavaScript, Swift, computing history, and whatever else interests me.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://rpowelll.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rhysforyou
