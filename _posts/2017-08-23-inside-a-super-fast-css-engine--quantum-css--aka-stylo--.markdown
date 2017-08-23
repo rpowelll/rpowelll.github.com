@@ -1,7 +1,7 @@
 ---
-title: Inside a super fast CSS engine: Quantum CSS (aka Stylo)
+title: "Inside a super fast CSS engine: Quantum CSS (aka Stylo)"
 link: https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/
-date: 2017-08-23T10:43:16+1000
+date: 2017-08-23T13:37+1000
 tags:
 - browsers
 - css
