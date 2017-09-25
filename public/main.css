@@ -170,6 +170,13 @@ pre > code {
   padding: 0 1rem;
 }
 
+@supports(padding: max(0px)) {
+    #site-header > .wrapper {
+        padding-left: max(1rem, constant(safe-area-inset-left));
+        padding-right: max(1rem, constant(safe-area-inset-right));
+    }
+}
+
 #site-header a {
   color: var(--background-color);
 }
@@ -252,6 +259,14 @@ pre > code {
   line-height: 1.3rem;
 }
 
+
+@supports(padding: max(0px)) {
+    #site-footer {
+        padding-left: max(1rem, constant(safe-area-inset-left));
+        padding-right: max(1rem, constant(safe-area-inset-right));
+    }
+}
+
 #site-footer ul.contact,
 #site-footer ul.social-media-list {
   list-style: none;
@@ -300,6 +315,13 @@ pre > code {
   max-width: var(--site-max-width);
   margin: auto;
   padding: 1rem;
+}
+
+@supports(padding: max(0px)) {
+    .post {
+        padding-left: max(1rem, constant(safe-area-inset-left));
+        padding-right: max(1rem, constant(safe-area-inset-right));
+    }
 }
 
 #blog-listing .page-heading {
@@ -365,6 +387,13 @@ pre > code {
   padding: 1rem;
   max-width: var(--site-max-width);
   margin: auto;
+}
+
+@supports(padding: max(0px)) {
+    #blog-post {
+        padding-left: max(1rem, constant(safe-area-inset-left));
+        padding-right: max(1rem, constant(safe-area-inset-right));
+    }
 }
 
 #blog-post h1.post-title {
