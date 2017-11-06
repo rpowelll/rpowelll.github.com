@@ -4,9 +4,9 @@
 
 :root {
   /* Type */
-  --sans-serif-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  --sans-serif-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
 
   /* Metrics */
   --site-max-width: 46rem;
@@ -35,13 +35,12 @@ html.font-small {
 }
 
 html.font-medium {
-  font-size: font-size: 100%;
+  font-size: 100%;
 }
 
 html.font-large {
   font-size: 125%;
 }
-
 
 /***************
  * Base Styles *
@@ -53,10 +52,10 @@ body {
   color: var(--text-color);
 
   -webkit-text-size-adjust: 100%;
-  -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
-  -o-font-feature-settings: "kern" 1;
-  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: 'kern' 1;
+  -moz-font-feature-settings: 'kern' 1;
+  -o-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
   font-kerning: normal;
   line-height: 1.5;
 }
@@ -113,7 +112,7 @@ blockquote {
 pre,
 code,
 .highlighter-rouge .highlight {
-  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New",
+  font-family: Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
     monospace;
 }
 
@@ -137,9 +136,6 @@ pre > code {
   padding-right: 0;
   padding-left: 0;
 }
-
-
-
 
 /**********
  * Header *
@@ -170,11 +166,12 @@ pre > code {
   padding: 0 1rem;
 }
 
-@supports(padding: max(0px)) {
-    #site-header > .wrapper {
-        padding-left: max(1rem, constant(safe-area-inset-left));
-        padding-right: max(1rem, constant(safe-area-inset-right));
-    }
+@supports (margin-left: env(safe-area-inset-left)) {
+  #site-header > .wrapper {
+    padding-top: max(0, env(safe-area-inset-top));
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
 }
 
 #site-header a {
@@ -259,12 +256,12 @@ pre > code {
   line-height: 1.3rem;
 }
 
-
-@supports(padding: max(0px)) {
-    #site-footer {
-        padding-left: max(1rem, constant(safe-area-inset-left));
-        padding-right: max(1rem, constant(safe-area-inset-right));
-    }
+@supports (margin-left: env(safe-area-inset-left)) {
+  #site-footer {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+    padding-bottom: max(4rem, env(safe-area-inset-bottom));
+  }
 }
 
 #site-footer ul.contact,
@@ -295,17 +292,24 @@ pre > code {
  * Page *
  ********/
 
- #page {
-   max-width: var(--site-max-width);
-   margin: auto;
-   padding: 1rem;
- }
+#page {
+  max-width: var(--site-max-width);
+  margin: auto;
+  padding: 1rem;
+}
 
- #page .page-heading {
-   padding: 0 0 1rem;
-   font-size: 2.5rem;
-   line-height: 1em;
- }
+@supports (margin-left: env(safe-area-inset-left)) {
+  #page {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+}
+
+#page .page-heading {
+  padding: 0 0 1rem;
+  font-size: 2.5rem;
+  line-height: 1em;
+}
 
 /****************
  * Blog Listing *
@@ -317,11 +321,11 @@ pre > code {
   padding: 1rem;
 }
 
-@supports(padding: max(0px)) {
-    .post {
-        padding-left: max(1rem, constant(safe-area-inset-left));
-        padding-right: max(1rem, constant(safe-area-inset-right));
-    }
+@supports (margin-left: env(safe-area-inset-left)) {
+  #blog-listing {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
 }
 
 #blog-listing .page-heading {
@@ -389,11 +393,11 @@ pre > code {
   margin: auto;
 }
 
-@supports(padding: max(0px)) {
-    #blog-post {
-        padding-left: max(1rem, constant(safe-area-inset-left));
-        padding-right: max(1rem, constant(safe-area-inset-right));
-    }
+@supports (margin-left: env(safe-area-inset-left)) {
+  #blog-post {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
 }
 
 #blog-post h1.post-title {
@@ -618,7 +622,6 @@ pre > code {
 .highlight .il {
   color: #ae81ff;
 } /* Literal.Number.Integer.Long */
-
 
 .language-applescript .highlight code {
   font-family: var(--sans-serif-font-family);
