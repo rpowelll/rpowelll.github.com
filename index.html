@@ -2,20 +2,16 @@
 layout: default
 ---
 
-<main id="blog-listing" class="page-content">
-  <h1 class="page-heading">Posts</h1>
-  <ul class="post-list">
-    {% for post in site.posts %}
-    <li class="post link-post" itemscope itemtype="https://schema.org/BlogPosting">
-      <h2 class="post-title" itemprop="name">
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </h2>
-      <span class="post-meta">
-        <time itemProp="dateCreated" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S%z' }}">
-          {{ post.date | date: "%b %-d, %Y" }}
-        </time>
-      </span>
-    </li>
-    {% endfor %}
-  </ul>
+<main id="homepage">
+  <div class="jumbotron">
+    <?xml version="1.0" encoding="UTF-8"?>
+    <svg class="logo" width="120px" height="120px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>logo</title>
+        <g class="bg-fill" stroke="none" fill-rule="evenodd" id="logo">
+            <path d="M15,30 C6.71572875,30 0,23.2842712 0,15 C0,6.71572875 6.71572875,0 15,0 C23.2842712,0 30,6.71572875 30,15 C30,23.2842712 23.2842712,30 15,30 Z M17.491478,7.52562039 L12.5671099,7.52562039 C8.48877855,7.52562039 6.38453313,8.97906826 6.38453313,12.1028965 C6.38453313,14.0769824 7.31734295,15.248418 9.26973561,16.1595346 L5.4517233,22.5590439 L9.46497487,22.5590439 L12.5454166,16.8103321 L13.9337847,16.8103321 L13.9337847,22.5590439 L17.491478,22.5590439 L17.491478,16.8103321 C18.4021444,16.8103321 18.8640488,16.8103321 18.8784969,16.8103321 C24.2774116,16.8103321 25.0393804,14.0769824 25.0393804,12.1028965 C25.0393804,8.97906826 22.935135,7.52562039 18.8568037,7.52562039 L17.4914846,7.52562039 Z M13.9337847,10.0203443 L13.9337847,14.3589947 L12.4369504,14.3589947 C10.8750362,14.3589947 10.0506927,13.6865039 10.0506927,12.1028965 C10.0506927,10.6494486 10.8967295,10.0203443 12.6538829,10.0203443 L13.9337847,10.0203443 Z M17.4901288,10.0203443 L18.7700307,10.0203443 C20.5271841,10.0203443 21.3732209,10.6494486 21.3732209,12.1028965 C21.3732209,13.6865039 20.5488773,14.3589947 18.9869632,14.3589947 L17.4901288,14.3589947 L17.4901288,10.0203443 Z" id="Combined-Shape"></path>
+        </g>
+    </svg>
+    <h2 class="title">Rhys Powell</h2>
+    <span>Mobile and Web Developer</span>
+  </div>
 </main>
