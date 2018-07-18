@@ -1,6 +1,6 @@
 ---
 title: "React 16: A look inside an API-compatible rewrite of our frontend UI library"
-link: https://code.facebook.com/posts/1716776591680069/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library/?utm_source=reactnl&utm_medium=email
+link: https://code.facebook.com/posts/1716776591680069/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library
 date: 2017-10-03T14:55:59+1100
 ---
 
