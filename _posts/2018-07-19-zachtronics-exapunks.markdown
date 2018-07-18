@@ -1,5 +1,5 @@
 ---
-title "Zachtronics | EXAPUNKS"
+title: "Zachtronics | EXAPUNKS"
 link: http://www.zachtronics.com/exapunks/
 date: 2018-07-19T08:00:01+10:00
 tags: games
