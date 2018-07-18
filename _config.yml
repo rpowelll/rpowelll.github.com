@@ -1,8 +1,8 @@
 title: Rhys Powell
-email: rhys@rpowell.me
+email: rhys@powell.zone
 description: Posts on JavaScript, Swift, computing history, and whatever else interests me.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://extremely.online" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rpowell.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rhysforyou
 github_username:  rhysforyou
 
