@@ -7,5 +7,16 @@ permalink: .well-known/keybase.txt
     "apps": [
       "6752H6VL8N.com.rpowell.PasswordDemo"
     ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "6752H6VL8N.com.rpowell.UniversalLinksDemo",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
   }
 }
