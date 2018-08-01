@@ -22,7 +22,7 @@ self.navigationItem.title = .notesNavigationTitle
 self.notesCountLabel.text = .notesCount(self.viewModel.notesCount)
 ```
 
-The magic that makes this line of code work is a simple extenison to the `String` type, which we can stick at the bottom of a view controller's file, or put in its own swift file called something like _String+Localized.swift_ to make it available throughout our codebase.
+The magic that makes these lines of code work is a simple extenison to the `String` type, which we can stick at the bottom of a view controller's file, or put in its own swift file called something like _String+Localized.swift_ to make it available throughout our codebase.
 
 ```swift
 extension String {
