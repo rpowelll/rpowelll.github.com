@@ -1,0 +1,28 @@
+---
+title: "Never - NSHipster"
+link: https://nshipster.com/never/
+date: 2018-08-01T12:41:13+10:00
+tags: code, swift 
+---
+
+> “Never” is a proposition that an event doesn’t occur at any time in the past or future. It’s logical impossibility with a time axis; nothingness stretching out in all directions, forever.  
+>   
+> …which is why it’s especially worrisome to encounter this comment in code:  
+>   
+> ```swift  
+>   this will never happen  
+> ```  
+>   
+> Every compiler textbook will tell you that a comment like this one can’t and won’t affect the behavior of compiled code. Murphy’s Law says otherwise.  
+>   
+> How does Swift keep us safe in the unpredictable chaos that is programming? You’ll never believe the answer: nothing and crashing.  
+>   
+> […]  
+>   
+> `Never` was proposed as a replacement for the `@noreturn` attribute in SE-0102: “Remove @noreturn attribute and introduce an empty Never type”, by Joe Groff.  
+
+Really great article by Mattt over at NSHipster[^1] on the proposed `Never` type for Swift. The article also goes over the concept of _Uninhabited Types_, which I’ve been using in my own code for a while without realising they had a name.
+
+The idea of expressing unreachable states through the type system is a powerful one, and it’s already in use today in libraries like [Result](https://github.com/antitypical/Result), which let you define a type as `Result<Value, NoError` to indicate a result that can never contain an error and have the compiler enforce that. 
+
+[^1]: Who, by the way, it’s great to see posting again after something of a hiatus.
