@@ -4,7 +4,7 @@ date: 2018-08-01T14:36+1000
 tags: swift
 ---
 
-If you're a detail-oriented iOS developer, one of the things you've probably had drilled into you is that you should alwys localise user facing strings. Thankfully in Cocoa we have a variety of tools at our dispoable to do this, from simple `.strings` files, to the `.stringsdict` file format: which lets us handle more specialised strings with pluralisation rules.
+If you're a detail-oriented iOS developer, one of the things you've probably had drilled into you is that you should alwys localise user facing strings. Thankfully in Cocoa we have a variety of tools at our disposal to do this, from simple `.strings` files, to the `.stringsdict` file format: which lets us handle more specialised strings with pluralisation rules.
 
 That said, it can make your code look messy to have dozens of calls to `NSLocalizedString()` all over the place, and this only gets more out of control when using `NSString.localizedStringWithFormat(_:, comment:)` to handle format strings.
 
