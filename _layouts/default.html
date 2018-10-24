@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: "en-AU" }}" class="theme-dark font-medium">
+<html lang="{{ page.lang | default: "en-AU" }}" class="font-medium">
 {% include head.html %}
+
 <body>
-{% include header.html %}
-{{ content }}
-{% include footer.html %}
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
 </body>
+
 </html>
