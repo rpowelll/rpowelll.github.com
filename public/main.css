@@ -37,7 +37,7 @@ html.theme-dark {
   --text-color: #fcfffb;
   --secondary-text-color: #5b96a5;
   --background-color: #121a2f;
-  --brand-color: rgb(230, 219, 116);
+  --brand-color: rgb(255, 55, 75);
   --grey-color: #5b96a5;
   --dark-grey-color: rgb(55, 90, 99);
 }
@@ -47,7 +47,7 @@ html.theme-dark {
     --text-color: #fcfffb;
     --secondary-text-color: #5b96a5;
     --background-color: #121a2f;
-    --brand-color: rgb(230, 219, 116);
+    --brand-color: rgb(255, 55, 75);
     --grey-color: #5b96a5;
     --dark-grey-color: rgb(55, 90, 99);
   }
@@ -58,7 +58,7 @@ html.theme-dark {
     --text-color: #121a2f;
     --secondary-text-color: #5b96a5;
     --background-color: #fcfffb;
-    --brand-color: #5b96a5;
+    --brand-color: rgb(255, 55, 75);
     --grey-color: rgb(55, 90, 99);
     --dark-grey-color: #5b96a5;
   }
